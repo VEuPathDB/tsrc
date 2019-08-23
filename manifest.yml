@@ -1,76 +1,76 @@
 repos:
 #  - src: ApiCommonDatasets
-#    url: https://github.com/EuPathDB/ApiCommonDatasets.git
+#    url: /tmp/gitmirror/ApiCommonDatasets.git
 
   - src: ApiCommonModel
-    url: https://github.com/EuPathDB/ApiCommonModel.git
+    url: /tmp/gitmirror/ApiCommonModel.git
     branch: master
 
 #  - src: ApiCommonPresenters
-#    url: https://github.com/EuPathDB/ApiCommonPresenters.git
+#    url: /tmp/gitmirror/ApiCommonPresenters.git
 
   - src: ApiCommonWebService
-    url: https://github.com/EuPathDB/ApiCommonWebService.git
+    url: /tmp/gitmirror/ApiCommonWebService.git
     branch: master
 
   - src: ApiCommonWebsite
-    url: https://github.com/EuPathDB/ApiCommonWebsite.git
+    url: /tmp/gitmirror/ApiCommonWebsite.git
     branch: master
 
   - src: CBIL
-    url: https://github.com/EuPathDB/CBIL.git
+    url: /tmp/gitmirror/CBIL.git
     branch: master
 
   - src: EbrcModelCommon
-    url: https://github.com/EuPathDB/EbrcModelCommon.git
+    url: /tmp/gitmirror/EbrcModelCommon.git
     branch: master
 
   - src: EbrcWebsiteCommon
-    url: https://github.com/EuPathDB/EbrcWebsiteCommon.git
+    url: /tmp/gitmirror/EbrcWebsiteCommon.git
     branch: master
 
   - src: EbrcWebSvcCommon
-    url: https://github.com/EuPathDB/EbrcWebSvcCommon.git
+    url: /tmp/gitmirror/EbrcWebSvcCommon.git
     branch: master
 
   - src: FgpUtil
-    url: https://github.com/EuPathDB/FgpUtil.git
+    url: /tmp/gitmirror/FgpUtil.git
     branch: master
 
   - src: GBrowse
-    url: https://github.com/EuPathDB/GBrowse.git
+    url: /tmp/gitmirror/GBrowse.git
     branch: master
 
   - src: install
-    url: https://github.com/EuPathDB/install.git
+    url: /tmp/gitmirror/install.git
     branch: master
 
   - src: JBrowse
-    url: https://github.com/EuPathDB/JBrowse.git
+    url: /tmp/gitmirror/JBrowse.git
     branch: master
 
   - src: ReFlow
-    url: https://github.com/EuPathDB/ReFlow.git
+    url: /tmp/gitmirror/ReFlow.git
     branch: master
 
   - src: WDK
-    url: https://github.com/EuPathDB/WDK.git
+    url: /tmp/gitmirror/WDK.git
     branch: master
 
   - src: WDKClient
-    url: https://github.com/EuPathDB/WDKClient.git
+    url: /tmp/gitmirror/WDKClient.git
     branch: master
 
   - src: WDKWebsite
-    url: https://github.com/EuPathDB/WDKWebsite.git
+    url: /tmp/gitmirror/WDKWebsite.git
     branch: master
 
   - src: WSF
-    url: https://github.com/EuPathDB/WSF.git
+    url: /tmp/gitmirror/WSF.git
     branch: master
 
   - src: TuningManager
-    url: https://github.com/EuPathDB/TuningManager.git
+    url: /tmp/gitmirror/TuningManager.git
     branch: master
 
 groups:
