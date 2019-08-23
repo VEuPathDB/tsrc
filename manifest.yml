@@ -79,3 +79,5 @@ groups:
 
   apiSiteProjects:
     repos: [ReFlow, ApiCommonModel, GBrowse, JBrowse, ApiCommonWebsite, ApiCommonWebService]
+    includes: [baseProjects]
+
