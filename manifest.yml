@@ -1,6 +1,15 @@
 repos:
+
+  - src: ApiCommonData
+    url: https://github.com/EuPathDB/ApiCommonData.git
+    branch: master
+
 #  - src: ApiCommonDatasets
 #    url: https://github.com/EuPathDB/ApiCommonDatasets.git
+
+  - src: ApiCommonMetadataRepository
+    url: https://github.com/EuPathDB/ApiCommonMetadataRepository.git
+    branch: master
 
   - src: ApiCommonModel
     url: https://github.com/EuPathDB/ApiCommonModel.git
@@ -17,8 +26,44 @@ repos:
     url: https://github.com/EuPathDB/ApiCommonWebsite.git
     branch: master
 
+  - src: ApiCommonWorkflow
+    url: https://github.com/EuPathDB/ApiCommonWorkflow.git
+    branch: master
+
   - src: CBIL
     url: https://github.com/EuPathDB/CBIL.git
+    branch: master
+
+  - src: ClinEpiData
+    url: https://github.com/EuPathDB/ClinEpiData.git
+    branch: master
+
+  # - src: ClinEpiDatasets
+  #   url: https://github.com/EuPathDB/ClinEpiDatasets.git
+  #   branch: master
+
+  - src: ClinEpiModel
+    url: https://github.com/EuPathDB/ClinEpiModel.git
+    branch: master
+
+  # - src: ClinEpiPresenters
+  #   url: https://github.com/EuPathDB/ClinEpiPresenters.git
+  #   branch: master
+
+  - src: ClinEpiWebsite
+    url: https://github.com/EuPathDB/ClinEpiWebsite.git
+    branch: master
+
+  - src: ClinEpiWorkflow
+    url: https://github.com/EuPathDB/ClinEpiWorkflow.git
+    branch: master
+
+  - src: DJob
+    url: https://github.com/EuPathDB/DJob.git
+    branch: master
+
+  - src: DoTS
+    url: https://github.com/EuPathDB/DoTS.git
     branch: master
 
   - src: EbrcModelCommon
@@ -33,12 +78,44 @@ repos:
     url: https://github.com/EuPathDB/EbrcWebSvcCommon.git
     branch: master
 
+  - src: EuPathDBIrods
+    url: https://github.com/EuPathDB/EuPathDBIrods.git
+    branch: master
+
+  - src: EuPathGalaxy
+    url: https://github.com/EuPathDB/EuPathGalaxy.git
+    branch: master
+
+  - src: EuPathTemplateSite
+    url: https://github.com/EuPathDB/EuPathTemplateSite.git
+    branch: master
+
   - src: FgpUtil
     url: https://github.com/EuPathDB/FgpUtil.git
     branch: master
 
+  # - src: FungiDBDatasets
+  #   url: https://github.com/EuPathDB/FungiDBDatasets.git
+  #   branch: master
+
+  # - src: FungiDBPresenters
+  #   url: https://github.com/EuPathDB/FungiDBPresenters.git
+  #   branch: master
+
   - src: GBrowse
     url: https://github.com/EuPathDB/GBrowse.git
+    branch: master
+
+  - src: GGTools
+    url: https://github.com/EuPathDB/GGTools.git
+    branch: master
+
+  - src: GusAppFramework
+    url: https://github.com/EuPathDB/GusAppFramework.git
+    branch: master
+
+  - src: GusSchema
+    url: https://github.com/EuPathDB/ApiCommonWorkflow.git
     branch: master
 
   - src: install
@@ -49,8 +126,72 @@ repos:
     url: https://github.com/EuPathDB/JBrowse.git
     branch: master
 
+  # - src: MicrobiomeDatasets
+  #   url: https://github.com/EuPathDB/MicrobiomeDatasets.git
+  #   branch: master
+
+  - src: MicrobiomeModel
+    url: https://github.com/EuPathDB/MicrobiomeModel.git
+    branch: master
+
+  # - src: MicrobiomePresenters
+  #   url: https://github.com/EuPathDB/MicrobiomePresenters.git
+  #   branch: master
+
+  - src: MicrobiomeWebsite
+    url: https://github.com/EuPathDB/MicrobiomeWebsite.git
+    branch: master
+
+  - src: MicrobiomeWorkflow
+    url: https://github.com/EuPathDB/MicrobiomeWorkflow.git
+    branch: master
+
+  - src: OAuth2Server
+    url: https://github.com/EuPathDB/OAuth2Server.git
+    branch: master
+
+  - src: OrthoMCLData
+    url: https://github.com/EuPathDB/OrthoMCLData.git
+    branch: master
+
+  # - src: OrthoMCLDatasets
+  #   url: https://github.com/EuPathDB/OrthoMCLDatasets.git
+  #   branch: master
+
+  - src: OrthoMCLEngine
+    url: https://github.com/EuPathDB/OrthoMCLEngine.git
+    branch: master
+
+  - src: OrthoMCLModel
+    url: https://github.com/EuPathDB/OrthoMCLModel.git
+    branch: master
+
+  # - src: OrthoMCLPresenters
+  #   url: https://github.com/EuPathDB/OrthoMCLPresenters.git
+  #   branch: master
+
+  - src: OrthoMCLWebService
+    url: https://github.com/EuPathDB/OrthoMCLWebService.git
+    branch: master
+
+  - src: OrthoMCLWebsite
+    url: https://github.com/EuPathDB/OrthoMCLWebsite.git
+    branch: master
+
+  - src: OrthoMCLWorkflow
+    url: https://github.com/EuPathDB/OrthoMCLWorkflow.git
+    branch: master
+
   - src: ReFlow
     url: https://github.com/EuPathDB/ReFlow.git
+    branch: master
+
+  - src: SchemaBrowser
+    url: https://github.com/EuPathDB/SchemaBrowser.git
+    branch: master
+
+  - src: TuningManager
+    url: https://github.com/EuPathDB/TuningManager.git
     branch: master
 
   - src: WDK
@@ -69,15 +210,71 @@ repos:
     url: https://github.com/EuPathDB/WSF.git
     branch: master
 
-  - src: TuningManager
-    url: https://github.com/EuPathDB/TuningManager.git
-    branch: master
-
 groups:
-  baseProjects:
-    repos: [install, CBIL, FgpUtil, WSF, WDK, TuningManager]
+  base:
+    repos: 
+      - CBIL
+      - FgpUtil
+      - install
+      - TuningManager
+      - WDK
+      - WSF
 
-  apiSiteProjects:
-    repos: [ReFlow, ApiCommonModel, GBrowse, JBrowse, ApiCommonWebsite, ApiCommonWebService]
-    includes: [baseProjects]
+  siteShared:
+    repos:
+      - WDKClient
+      - WDKWebsite
+      - EbrcModelCommon
+      - EbrcWebsiteCommon
+      - EbrcWebSvcCommon
+    includes:
+      - baseProjects
 
+  apiSite:
+    repos:
+      # - ApiCommonDatasets
+      - ApiCommonModel
+      # - ApiCommonPresenters
+      - ApiCommonWebService
+      - ApiCommonWebsite
+      - GBrowse
+      - JBrowse
+      - ReFlow
+    includes: 
+      - siteProjects
+
+  orthoSite:
+    repos:
+      - DJob
+      - OrthoMCLModel
+      - OrthoMCLWebService
+      - OrthoMCLWebsite
+    includes:
+      - siteProjects
+
+  clinEpiSite:
+    repos:
+      # - ClinEpiPresenters
+      # - ClinEpiDatasets
+      - ClinEpiModel
+      - ClinEpiWebsite
+      - ReFlow
+    includes:
+      - siteProjects
+
+  microbiomeSite:
+    repos:
+      # - MicrobiomePresenters
+      # - MicrobiomeDatasets
+      - MicrobiomeModel
+      - MicrobiomeWebsite
+      - ReFlow
+    includes:
+      - siteProjects
+
+  allSites:
+    includes:
+      - apiSite
+      - orthoSite
+      - clinEpiSite
+      - microbiomeSite
