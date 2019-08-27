@@ -228,7 +228,7 @@ groups:
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
     includes:
-      - baseProjects
+      - base
 
   apiSite:
     repos:
@@ -241,7 +241,7 @@ groups:
       - JBrowse
       - ReFlow
     includes: 
-      - siteProjects
+      - siteShared
 
   orthoSite:
     repos:
@@ -250,7 +250,7 @@ groups:
       - OrthoMCLWebService
       - OrthoMCLWebsite
     includes:
-      - siteProjects
+      - siteShared
 
   clinEpiSite:
     repos:
@@ -260,7 +260,7 @@ groups:
       - ClinEpiWebsite
       - ReFlow
     includes:
-      - siteProjects
+      - siteShared
 
   microbiomeSite:
     repos:
@@ -270,7 +270,7 @@ groups:
       - MicrobiomeWebsite
       - ReFlow
     includes:
-      - siteProjects
+      - siteShared
 
   allSites:
     repos: []
