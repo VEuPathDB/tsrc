@@ -273,6 +273,7 @@ groups:
       - siteProjects
 
   allSites:
+    repos:
     includes:
       - apiSite
       - orthoSite
