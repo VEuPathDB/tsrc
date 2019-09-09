@@ -4,8 +4,8 @@ repos:
     url: https://github.com/EuPathDB/ApiCommonData.git
     branch: master
 
-#  - src: ApiCommonDatasets
-#    url: https://github.com/EuPathDB/ApiCommonDatasets.git
+  - src: ApiCommonDatasets
+    url: https://github.com/EuPathDB/ApiCommonDatasets.git
 
   - src: ApiCommonMetadataRepository
     url: https://github.com/EuPathDB/ApiCommonMetadataRepository.git
@@ -15,8 +15,8 @@ repos:
     url: https://github.com/EuPathDB/ApiCommonModel.git
     branch: master
 
-#  - src: ApiCommonPresenters
-#    url: https://github.com/EuPathDB/ApiCommonPresenters.git
+  - src: ApiCommonPresenters
+    url: https://github.com/EuPathDB/ApiCommonPresenters.git
 
   - src: ApiCommonWebService
     url: https://github.com/EuPathDB/ApiCommonWebService.git
@@ -38,17 +38,17 @@ repos:
     url: https://github.com/EuPathDB/ClinEpiData.git
     branch: master
 
-  # - src: ClinEpiDatasets
-  #   url: https://github.com/EuPathDB/ClinEpiDatasets.git
-  #   branch: master
+  - src: ClinEpiDatasets
+    url: https://github.com/EuPathDB/ClinEpiDatasets.git
+    branch: master
 
   - src: ClinEpiModel
     url: https://github.com/EuPathDB/ClinEpiModel.git
     branch: master
 
-  # - src: ClinEpiPresenters
-  #   url: https://github.com/EuPathDB/ClinEpiPresenters.git
-  #   branch: master
+  - src: ClinEpiPresenters
+    url: https://github.com/EuPathDB/ClinEpiPresenters.git
+    branch: master
 
   - src: ClinEpiWebsite
     url: https://github.com/EuPathDB/ClinEpiWebsite.git
@@ -94,13 +94,13 @@ repos:
     url: https://github.com/EuPathDB/FgpUtil.git
     branch: master
 
-  # - src: FungiDBDatasets
-  #   url: https://github.com/EuPathDB/FungiDBDatasets.git
-  #   branch: master
+  - src: FungiDBDatasets
+    url: https://github.com/EuPathDB/FungiDBDatasets.git
+    branch: master
 
-  # - src: FungiDBPresenters
-  #   url: https://github.com/EuPathDB/FungiDBPresenters.git
-  #   branch: master
+  - src: FungiDBPresenters
+    url: https://github.com/EuPathDB/FungiDBPresenters.git
+    branch: master
 
   - src: GBrowse
     url: https://github.com/EuPathDB/GBrowse.git
@@ -126,17 +126,17 @@ repos:
     url: https://github.com/EuPathDB/JBrowse.git
     branch: master
 
-  # - src: MicrobiomeDatasets
-  #   url: https://github.com/EuPathDB/MicrobiomeDatasets.git
-  #   branch: master
+  - src: MicrobiomeDatasets
+    url: https://github.com/EuPathDB/MicrobiomeDatasets.git
+    branch: master
 
   - src: MicrobiomeModel
     url: https://github.com/EuPathDB/MicrobiomeModel.git
     branch: master
 
-  # - src: MicrobiomePresenters
-  #   url: https://github.com/EuPathDB/MicrobiomePresenters.git
-  #   branch: master
+  - src: MicrobiomePresenters
+    url: https://github.com/EuPathDB/MicrobiomePresenters.git
+    branch: master
 
   - src: MicrobiomeWebsite
     url: https://github.com/EuPathDB/MicrobiomeWebsite.git
@@ -154,9 +154,9 @@ repos:
     url: https://github.com/EuPathDB/OrthoMCLData.git
     branch: master
 
-  # - src: OrthoMCLDatasets
-  #   url: https://github.com/EuPathDB/OrthoMCLDatasets.git
-  #   branch: master
+  - src: OrthoMCLDatasets
+    url: https://github.com/EuPathDB/OrthoMCLDatasets.git
+    branch: master
 
   - src: OrthoMCLEngine
     url: https://github.com/EuPathDB/OrthoMCLEngine.git
@@ -166,9 +166,9 @@ repos:
     url: https://github.com/EuPathDB/OrthoMCLModel.git
     branch: master
 
-  # - src: OrthoMCLPresenters
-  #   url: https://github.com/EuPathDB/OrthoMCLPresenters.git
-  #   branch: master
+  - src: OrthoMCLPresenters
+    url: https://github.com/EuPathDB/OrthoMCLPresenters.git
+    branch: master
 
   - src: OrthoMCLWebService
     url: https://github.com/EuPathDB/OrthoMCLWebService.git
@@ -232,9 +232,9 @@ groups:
 
   apiSite:
     repos:
-      # - ApiCommonDatasets
+      - ApiCommonDatasets
       - ApiCommonModel
-      # - ApiCommonPresenters
+      - ApiCommonPresenters
       - ApiCommonWebService
       - ApiCommonWebsite
       - GBrowse
@@ -254,8 +254,8 @@ groups:
 
   clinEpiSite:
     repos:
-      # - ClinEpiPresenters
-      # - ClinEpiDatasets
+      - ClinEpiPresenters
+      - ClinEpiDatasets
       - ClinEpiModel
       - ClinEpiWebsite
       - ReFlow
@@ -264,8 +264,8 @@ groups:
 
   microbiomeSite:
     repos:
-      # - MicrobiomePresenters
-      # - MicrobiomeDatasets
+      - MicrobiomePresenters
+      - MicrobiomeDatasets
       - MicrobiomeModel
       - MicrobiomeWebsite
       - ReFlow
