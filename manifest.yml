@@ -6,6 +6,7 @@ repos:
 
   - src: ApiCommonDatasets
     url: https://github.com/EuPathDB/ApiCommonDatasets.git
+    branch: master
 
   - src: ApiCommonMetadataRepository
     url: https://github.com/EuPathDB/ApiCommonMetadataRepository.git
@@ -17,6 +18,7 @@ repos:
 
   - src: ApiCommonPresenters
     url: https://github.com/EuPathDB/ApiCommonPresenters.git
+    branch: master
 
   - src: ApiCommonWebService
     url: https://github.com/EuPathDB/ApiCommonWebService.git
@@ -115,7 +117,7 @@ repos:
     branch: master
 
   - src: GusSchema
-    url: https://github.com/EuPathDB/ApiCommonWorkflow.git
+    url: https://github.com/EuPathDB/GusSchema.git
     branch: master
 
   - src: install
@@ -279,3 +281,15 @@ groups:
       - orthoSite
       - clinEpiSite
       - microbiomeSite
+
+  dataloading:
+    repos:
+      - ApiCommonData
+      - ApiCommonMetadataRepository
+      - ApiCommonWorkflow
+      - DoTS
+      - GGTools
+      - GusAppFramework
+      - GusSchema
+    includes:
+      - apiSite
