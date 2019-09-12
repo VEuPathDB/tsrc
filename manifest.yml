@@ -112,7 +112,7 @@ repos:
     url: https://github.com/EuPathDB/GGTools.git
     branch: master
 
-  - src: GusAppFramework
+  - src: GUS
     url: https://github.com/EuPathDB/GusAppFramework.git
     branch: master
 
@@ -289,7 +289,7 @@ groups:
       - ApiCommonWorkflow
       - DoTS
       - GGTools
-      - GusAppFramework
+      - GUS
       - GusSchema
     includes:
       - apiSite
