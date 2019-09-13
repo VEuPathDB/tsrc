@@ -6,7 +6,7 @@ repos:
 
   - src: ApiCommonDatasets
     url: git@github.com:EuPathDB/ApiCommonDatasets.git
-    branch: master
+    branch: test-unidb_11-18
 
   - src: ApiCommonMetadataRepository
     url: git@github.com:EuPathDB/ApiCommonMetadataRepository.git
@@ -14,19 +14,19 @@ repos:
 
   - src: ApiCommonModel
     url: git@github.com:EuPathDB/ApiCommonModel.git
-    branch: master
+    branch: unidb-04-19
 
   - src: ApiCommonPresenters
     url: git@github.com:EuPathDB/ApiCommonPresenters.git
-    branch: master
+    branch: test-unidb_11-18
 
   - src: ApiCommonWebService
     url: git@github.com:EuPathDB/ApiCommonWebService.git
-    branch: master
+    branch: unidb-04-19
 
   - src: ApiCommonWebsite
     url: git@github.com:EuPathDB/ApiCommonWebsite.git
-    branch: master
+    branch: unidb-04-19
 
   - src: ApiCommonWorkflow
     url: git@github.com:EuPathDB/ApiCommonWorkflow.git
@@ -34,7 +34,7 @@ repos:
 
   - src: CBIL
     url: git@github.com:EuPathDB/CBIL.git
-    branch: master
+    branch: unidb-04-19
 
   - src: ClinEpiData
     url: git@github.com:EuPathDB/ClinEpiData.git
@@ -70,15 +70,15 @@ repos:
 
   - src: EbrcModelCommon
     url: git@github.com:EuPathDB/EbrcModelCommon.git
-    branch: master
+    branch: unidb-04-19
 
   - src: EbrcWebsiteCommon
     url: git@github.com:EuPathDB/EbrcWebsiteCommon.git
-    branch: master
+    branch: unidb-04-19
 
   - src: EbrcWebSvcCommon
     url: git@github.com:EuPathDB/EbrcWebSvcCommon.git
-    branch: master
+    branch: unidb-04-19
 
   - src: EuPathDBIrods
     url: git@github.com:EuPathDB/EuPathDBIrods.git
@@ -94,7 +94,7 @@ repos:
 
   - src: FgpUtil
     url: git@github.com:EuPathDB/FgpUtil.git
-    branch: master
+    branch: unidb-04-19
 
   - src: FungiDBDatasets
     url: git@github.com:EuPathDB/FungiDBDatasets.git
@@ -106,7 +106,7 @@ repos:
 
   - src: GBrowse
     url: git@github.com:EuPathDB/GBrowse.git
-    branch: master
+    branch: unidb-04-19
 
   - src: GGTools
     url: git@github.com:EuPathDB/GGTools.git
@@ -122,11 +122,11 @@ repos:
 
   - src: install
     url: git@github.com:EuPathDB/install.git
-    branch: master
+    branch: unidb-04-19
 
   - src: JBrowse
     url: git@github.com:EuPathDB/JBrowse.git
-    branch: master
+    branch: unidb-04-19
 
   - src: MicrobiomeDatasets
     url: git@github.com:EuPathDB/MicrobiomeDatasets.git
@@ -186,7 +186,7 @@ repos:
 
   - src: ReFlow
     url: git@github.com:EuPathDB/ReFlow.git
-    branch: master
+    branch: unidb-04-19
 
   - src: SchemaBrowser
     url: git@github.com:EuPathDB/SchemaBrowser.git
@@ -198,19 +198,19 @@ repos:
 
   - src: WDK
     url: git@github.com:EuPathDB/WDK.git
-    branch: master
+    branch: unidb-04-19
 
   - src: WDKClient
     url: git@github.com:EuPathDB/WDKClient.git
-    branch: master
+    branch: unidb-04-19
 
   - src: WDKWebsite
     url: git@github.com:EuPathDB/WDKWebsite.git
-    branch: master
+    branch: unidb-04-19
 
   - src: WSF
     url: git@github.com:EuPathDB/WSF.git
-    branch: master
+    branch: unidb-04-19
 
 groups:
   base:
