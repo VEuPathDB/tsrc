@@ -2,215 +2,215 @@ repos:
 
   - src: ApiCommonData
     url: git@github.com:EuPathDB/ApiCommonData.git
-    branch: master
+    branch: strategy-loading
 
   - src: ApiCommonDatasets
     url: git@github.com:EuPathDB/ApiCommonDatasets.git
-    branch: master
+    branch: strategy-loading
 
   - src: ApiCommonMetadataRepository
     url: git@github.com:EuPathDB/ApiCommonMetadataRepository.git
-    branch: master
+    branch: strategy-loading
 
   - src: ApiCommonModel
     url: git@github.com:EuPathDB/ApiCommonModel.git
-    branch: master
+    branch: strategy-loading
 
   - src: ApiCommonPresenters
     url: git@github.com:EuPathDB/ApiCommonPresenters.git
-    branch: master
+    branch: strategy-loading
 
   - src: ApiCommonWebService
     url: git@github.com:EuPathDB/ApiCommonWebService.git
-    branch: master
+    branch: strategy-loading
 
   - src: ApiCommonWebsite
     url: git@github.com:EuPathDB/ApiCommonWebsite.git
-    branch: master
+    branch: strategy-loading
 
   - src: ApiCommonWorkflow
     url: git@github.com:EuPathDB/ApiCommonWorkflow.git
-    branch: master
+    branch: strategy-loading
 
   - src: CBIL
     url: git@github.com:EuPathDB/CBIL.git
-    branch: master
+    branch: strategy-loading
 
   - src: ClinEpiData
     url: git@github.com:EuPathDB/ClinEpiData.git
-    branch: master
+    branch: strategy-loading
 
   - src: ClinEpiDatasets
     url: git@github.com:EuPathDB/ClinEpiDatasets.git
-    branch: master
+    branch: strategy-loading
 
   - src: ClinEpiModel
     url: git@github.com:EuPathDB/ClinEpiModel.git
-    branch: master
+    branch: strategy-loading
 
   - src: ClinEpiPresenters
     url: git@github.com:EuPathDB/ClinEpiPresenters.git
-    branch: master
+    branch: strategy-loading
 
   - src: ClinEpiWebsite
     url: git@github.com:EuPathDB/ClinEpiWebsite.git
-    branch: master
+    branch: strategy-loading
 
   - src: ClinEpiWorkflow
     url: git@github.com:EuPathDB/ClinEpiWorkflow.git
-    branch: master
+    branch: strategy-loading
 
   - src: DJob
     url: git@github.com:EuPathDB/DJob.git
-    branch: master
+    branch: strategy-loading
 
   - src: DoTS
     url: git@github.com:EuPathDB/DoTS.git
-    branch: master
+    branch: strategy-loading
 
   - src: EbrcModelCommon
     url: git@github.com:EuPathDB/EbrcModelCommon.git
-    branch: master
+    branch: strategy-loading
 
   - src: EbrcWebsiteCommon
     url: git@github.com:EuPathDB/EbrcWebsiteCommon.git
-    branch: master
+    branch: strategy-loading
 
   - src: EbrcWebSvcCommon
     url: git@github.com:EuPathDB/EbrcWebSvcCommon.git
-    branch: master
+    branch: strategy-loading
 
   - src: EuPathDBIrods
     url: git@github.com:EuPathDB/EuPathDBIrods.git
-    branch: master
+    branch: strategy-loading
 
   - src: EuPathGalaxy
     url: git@github.com:EuPathDB/EuPathGalaxy.git
-    branch: master
+    branch: strategy-loading
 
   - src: EuPathTemplateSite
     url: git@github.com:EuPathDB/EuPathTemplateSite.git
-    branch: master
+    branch: strategy-loading
 
   - src: FgpUtil
     url: git@github.com:EuPathDB/FgpUtil.git
-    branch: master
+    branch: strategy-loading
 
   - src: FungiDBDatasets
     url: git@github.com:EuPathDB/FungiDBDatasets.git
-    branch: master
+    branch: strategy-loading
 
   - src: FungiDBPresenters
     url: git@github.com:EuPathDB/FungiDBPresenters.git
-    branch: master
+    branch: strategy-loading
 
   - src: GBrowse
     url: git@github.com:EuPathDB/GBrowse.git
-    branch: master
+    branch: strategy-loading
 
   - src: GGTools
     url: git@github.com:EuPathDB/GGTools.git
-    branch: master
+    branch: strategy-loading
 
   - src: GUS
     url: git@github.com:EuPathDB/GusAppFramework.git
-    branch: master
+    branch: strategy-loading
 
   - src: GusSchema
     url: git@github.com:EuPathDB/GusSchema.git
-    branch: master
+    branch: strategy-loading
 
   - src: install
     url: git@github.com:EuPathDB/install.git
-    branch: master
+    branch: strategy-loading
 
   - src: JBrowse
     url: git@github.com:EuPathDB/JBrowse.git
-    branch: master
+    branch: strategy-loading
 
   - src: MicrobiomeDatasets
     url: git@github.com:EuPathDB/MicrobiomeDatasets.git
-    branch: master
+    branch: strategy-loading
 
   - src: MicrobiomeModel
     url: git@github.com:EuPathDB/MicrobiomeModel.git
-    branch: master
+    branch: strategy-loading
 
   - src: MicrobiomePresenters
     url: git@github.com:EuPathDB/MicrobiomePresenters.git
-    branch: master
+    branch: strategy-loading
 
   - src: MicrobiomeWebsite
     url: git@github.com:EuPathDB/MicrobiomeWebsite.git
-    branch: master
+    branch: strategy-loading
 
   - src: MicrobiomeWorkflow
     url: git@github.com:EuPathDB/MicrobiomeWorkflow.git
-    branch: master
+    branch: strategy-loading
 
   - src: OAuth2Server
     url: git@github.com:EuPathDB/OAuth2Server.git
-    branch: master
+    branch: strategy-loading
 
   - src: OrthoMCLData
     url: git@github.com:EuPathDB/OrthoMCLData.git
-    branch: master
+    branch: strategy-loading
 
   - src: OrthoMCLDatasets
     url: git@github.com:EuPathDB/OrthoMCLDatasets.git
-    branch: master
+    branch: strategy-loading
 
   - src: OrthoMCLEngine
     url: git@github.com:EuPathDB/OrthoMCLEngine.git
-    branch: master
+    branch: strategy-loading
 
   - src: OrthoMCLModel
     url: git@github.com:EuPathDB/OrthoMCLModel.git
-    branch: master
+    branch: strategy-loading
 
   - src: OrthoMCLPresenters
     url: git@github.com:EuPathDB/OrthoMCLPresenters.git
-    branch: master
+    branch: strategy-loading
 
   - src: OrthoMCLWebService
     url: git@github.com:EuPathDB/OrthoMCLWebService.git
-    branch: master
+    branch: strategy-loading
 
   - src: OrthoMCLWebsite
     url: git@github.com:EuPathDB/OrthoMCLWebsite.git
-    branch: master
+    branch: strategy-loading
 
   - src: OrthoMCLWorkflow
     url: git@github.com:EuPathDB/OrthoMCLWorkflow.git
-    branch: master
+    branch: strategy-loading
 
   - src: ReFlow
     url: git@github.com:EuPathDB/ReFlow.git
-    branch: master
+    branch: strategy-loading
 
   - src: SchemaBrowser
     url: git@github.com:EuPathDB/SchemaBrowser.git
-    branch: master
+    branch: strategy-loading
 
   - src: TuningManager
     url: git@github.com:EuPathDB/TuningManager.git
-    branch: master
+    branch: strategy-loading
 
   - src: WDK
     url: git@github.com:EuPathDB/WDK.git
-    branch: master
+    branch: strategy-loading
 
   - src: WDKClient
     url: git@github.com:EuPathDB/WDKClient.git
-    branch: master
+    branch: strategy-loading
 
   - src: WDKWebsite
     url: git@github.com:EuPathDB/WDKWebsite.git
-    branch: master
+    branch: strategy-loading
 
   - src: WSF
     url: git@github.com:EuPathDB/WSF.git
-    branch: master
+    branch: strategy-loading
 
 groups:
   base:
