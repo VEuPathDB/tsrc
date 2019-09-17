@@ -291,5 +291,22 @@ groups:
       - GGTools
       - GUS
       - GusSchema
+
+  apiLoading:
+    repos: []
     includes:
+      - dataLoading
       - apiSite
+
+  microbiomeLoading:
+    repos: []
+    includes:
+      - dataLoading
+      - microbiomeSite
+
+  cluster:
+    repos:
+      - DJob
+      - CBIL
+      - GGTools
+      - install
