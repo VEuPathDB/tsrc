@@ -172,6 +172,10 @@ repos:
     url: git@github.com:EuPathDB/OrthoMCLPresenters.git
     branch: master
 
+  - src: OrthoMCLShared
+    url: git@github.com:EuPathDB/OrthoMCLShared.git
+    branch: master
+
   - src: OrthoMCLWebService
     url: git@github.com:EuPathDB/OrthoMCLWebService.git
     branch: master
@@ -247,7 +251,6 @@ groups:
 
   orthoSite:
     repos:
-      - DJob
       - OrthoMCLModel
       - OrthoMCLWebService
       - OrthoMCLWebsite
@@ -282,33 +285,57 @@ groups:
       - clinEpiSite
       - microbiomeSite
 
-  dataLoading:
+  baseLoading:
     repos:
       - ApiCommonData
-      - ApiCommonMetadataRepository
       - ApiCommonWorkflow
-      - DJob
       - DoTS
+      - EbrcModelCommon
       - GGTools
       - GUS
       - GusSchema
+      - ReFlow
+    includes:
+      - base
 
   apiLoading:
-    repos: []
+    repos:
+      - ApiCommonDatasets
+      - ApiCommonMetadataRepository
     includes:
-      - dataLoading
-      - apiSite
+      - baseLoading
+
+  clinEpiLoading:
+    repos: 
+      - ClinEpiData
+      - ClinEpiDatasets
+      - ClinEpiModel
+      - ClinEpiWorkflow
+    includes:
+      - baseLoading
 
   microbiomeLoading:
     repos: 
+      - ApiCommonMetadataRepository
+      - MicrobiomeDatasets
+      - MicrobiomeModel
       - MicrobiomeWorkflow
     includes:
-      - dataLoading
-      - microbiomeSite
+      - baseLoading
+
+  orthomclLoading:
+    repos: 
+      - OrthoMCLData
+      - OrthoMCLDatasets
+      - OrthoMCLEngine
+      - OrthoMCLModel
+      - OrthoMCLShared
+      - OrthoMCLWorkflow
+    includes:
+      - baseLoading
 
   cluster:
     repos:
       - DJob
       - CBIL
-      - GGTools
       - install
