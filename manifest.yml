@@ -299,7 +299,8 @@ groups:
       - apiSite
 
   microbiomeLoading:
-    repos: []
+    repos: 
+      - MicrobiomeWorkflow
     includes:
       - dataLoading
       - microbiomeSite
