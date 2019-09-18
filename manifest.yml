@@ -295,6 +295,7 @@ groups:
       - GUS
       - GusSchema
       - ReFlow
+      - DJob
     includes:
       - base
 
