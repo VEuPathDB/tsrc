@@ -96,14 +96,6 @@ repos:
     url: git@github.com:EuPathDB/FgpUtil.git
     branch: strategy-loading
 
-  - src: FungiDBDatasets
-    url: git@github.com:EuPathDB/FungiDBDatasets.git
-    branch: strategy-loading
-
-  - src: FungiDBPresenters
-    url: git@github.com:EuPathDB/FungiDBPresenters.git
-    branch: strategy-loading
-
   - src: GBrowse
     url: git@github.com:EuPathDB/GBrowse.git
     branch: strategy-loading
