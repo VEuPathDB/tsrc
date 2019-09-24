@@ -96,14 +96,6 @@ repos:
     url: git@github.com:EuPathDB/FgpUtil.git
     branch: master
 
-  - src: FungiDBDatasets
-    url: git@github.com:EuPathDB/FungiDBDatasets.git
-    branch: master
-
-  - src: FungiDBPresenters
-    url: git@github.com:EuPathDB/FungiDBPresenters.git
-    branch: master
-
   - src: GBrowse
     url: git@github.com:EuPathDB/GBrowse.git
     branch: master
