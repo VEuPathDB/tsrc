@@ -188,6 +188,10 @@ repos:
     url: git@github.com:EuPathDB/SchemaBrowser.git
     branch: master
 
+  - src: SiteSearchData
+    url: git@github.com:EuPathDB/SiteSearchData.git
+    branch: master
+
   - src: TuningManager
     url: git@github.com:EuPathDB/TuningManager.git
     branch: master
@@ -331,4 +335,12 @@ groups:
     repos:
       - DJob
       - CBIL
+      - install
+      
+  siteSearchData:
+    repos:
+      - FgpUtil
+      - WDK
+      - WSF
+      - SiteSearchData
       - install
