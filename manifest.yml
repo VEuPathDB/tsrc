@@ -183,6 +183,10 @@ repos:
   - src: SchemaBrowser
     url: git@github.com:EuPathDB/SchemaBrowser.git
     branch: strategy-loading
+    
+  - src: SiteSearchData
+    url: git@github.com:EuPathDB/SiteSearchData.git
+    branch: strategy-loading
 
   - src: TuningManager
     url: git@github.com:EuPathDB/TuningManager.git
@@ -285,3 +289,11 @@ groups:
       - GusSchema
     includes:
       - apiSite
+      
+  siteSearchData:
+    repos:
+      - FgpUtil
+      - WDK
+      - WSF
+      - SiteSearchData
+      - install
