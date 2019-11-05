@@ -281,6 +281,17 @@ groups:
       - clinEpiSite
       - microbiomeSite
 
+  websiteRelease:
+    repos:
+      - EuPathGalaxy
+      - EuPathDBIrods
+      - OAuth2Server
+    includes:
+      - apiSite
+      - orthoSite
+      - clinEpiSite
+      - microbiomeSite
+
   baseLoading:
     repos:
       - ApiCommonData
