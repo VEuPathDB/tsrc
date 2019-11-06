@@ -319,6 +319,7 @@ groups:
       - ClinEpiDatasets
       - ClinEpiModel
       - ClinEpiWorkflow
+      - ClinEpiPresenters
     includes:
       - baseLoading
 
