@@ -1,215 +1,215 @@
 repos:
 
   - src: ApiCommonData
-    url: git@github.com:EuPathDB/ApiCommonData.git
+    url: git@github.com:VEuPathDB/ApiCommonData.git
     branch: master
 
   - src: ApiCommonDatasets
-    url: git@github.com:EuPathDB/ApiCommonDatasets.git
+    url: git@github.com:VEuPathDB/ApiCommonDatasets.git
     branch: master
 
   - src: ApiCommonMetadataRepository
-    url: git@github.com:EuPathDB/ApiCommonMetadataRepository.git
+    url: git@github.com:VEuPathDB/ApiCommonMetadataRepository.git
     branch: master
 
   - src: ApiCommonModel
-    url: git@github.com:EuPathDB/ApiCommonModel.git
+    url: git@github.com:VEuPathDB/ApiCommonModel.git
     branch: master
 
   - src: ApiCommonPresenters
-    url: git@github.com:EuPathDB/ApiCommonPresenters.git
+    url: git@github.com:VEuPathDB/ApiCommonPresenters.git
     branch: master
 
   - src: ApiCommonWebService
-    url: git@github.com:EuPathDB/ApiCommonWebService.git
+    url: git@github.com:VEuPathDB/ApiCommonWebService.git
     branch: master
 
   - src: ApiCommonWebsite
-    url: git@github.com:EuPathDB/ApiCommonWebsite.git
+    url: git@github.com:VEuPathDB/ApiCommonWebsite.git
     branch: master
 
   - src: ApiCommonWorkflow
-    url: git@github.com:EuPathDB/ApiCommonWorkflow.git
+    url: git@github.com:VEuPathDB/ApiCommonWorkflow.git
     branch: master
 
   - src: CBIL
-    url: git@github.com:EuPathDB/CBIL.git
+    url: git@github.com:VEuPathDB/CBIL.git
     branch: master
 
   - src: ClinEpiData
-    url: git@github.com:EuPathDB/ClinEpiData.git
+    url: git@github.com:VEuPathDB/ClinEpiData.git
     branch: master
 
   - src: ClinEpiDatasets
-    url: git@github.com:EuPathDB/ClinEpiDatasets.git
+    url: git@github.com:VEuPathDB/ClinEpiDatasets.git
     branch: master
 
   - src: ClinEpiModel
-    url: git@github.com:EuPathDB/ClinEpiModel.git
+    url: git@github.com:VEuPathDB/ClinEpiModel.git
     branch: master
 
   - src: ClinEpiPresenters
-    url: git@github.com:EuPathDB/ClinEpiPresenters.git
+    url: git@github.com:VEuPathDB/ClinEpiPresenters.git
     branch: master
 
   - src: ClinEpiWebsite
-    url: git@github.com:EuPathDB/ClinEpiWebsite.git
+    url: git@github.com:VEuPathDB/ClinEpiWebsite.git
     branch: master
 
   - src: ClinEpiWorkflow
-    url: git@github.com:EuPathDB/ClinEpiWorkflow.git
+    url: git@github.com:VEuPathDB/ClinEpiWorkflow.git
     branch: master
 
   - src: DJob
-    url: git@github.com:EuPathDB/DJob.git
+    url: git@github.com:VEuPathDB/DJob.git
     branch: master
 
   - src: DoTS
-    url: git@github.com:EuPathDB/DoTS.git
+    url: git@github.com:VEuPathDB/DoTS.git
     branch: master
 
   - src: EbrcModelCommon
-    url: git@github.com:EuPathDB/EbrcModelCommon.git
+    url: git@github.com:VEuPathDB/EbrcModelCommon.git
     branch: master
 
   - src: EbrcWebsiteCommon
-    url: git@github.com:EuPathDB/EbrcWebsiteCommon.git
+    url: git@github.com:VEuPathDB/EbrcWebsiteCommon.git
     branch: master
 
   - src: EbrcWebSvcCommon
-    url: git@github.com:EuPathDB/EbrcWebSvcCommon.git
+    url: git@github.com:VEuPathDB/EbrcWebSvcCommon.git
     branch: master
 
   - src: EuPathDBIrods
-    url: git@github.com:EuPathDB/EuPathDBIrods.git
+    url: git@github.com:VEuPathDB/EuPathDBIrods.git
     branch: master
 
   - src: EuPathGalaxy
-    url: git@github.com:EuPathDB/EuPathGalaxy.git
+    url: git@github.com:VEuPathDB/EuPathGalaxy.git
     branch: master
 
   - src: EuPathTemplateSite
-    url: git@github.com:EuPathDB/EuPathTemplateSite.git
+    url: git@github.com:VEuPathDB/EuPathTemplateSite.git
     branch: master
 
   - src: FgpUtil
-    url: git@github.com:EuPathDB/FgpUtil.git
+    url: git@github.com:VEuPathDB/FgpUtil.git
     branch: master
 
   - src: GBrowse
-    url: git@github.com:EuPathDB/GBrowse.git
+    url: git@github.com:VEuPathDB/GBrowse.git
     branch: master
 
   - src: GGTools
-    url: git@github.com:EuPathDB/GGTools.git
+    url: git@github.com:VEuPathDB/GGTools.git
     branch: master
 
   - src: GUS
-    url: git@github.com:EuPathDB/GusAppFramework.git
+    url: git@github.com:VEuPathDB/GusAppFramework.git
     branch: master
 
   - src: GusSchema
-    url: git@github.com:EuPathDB/GusSchema.git
+    url: git@github.com:VEuPathDB/GusSchema.git
     branch: master
 
   - src: install
-    url: git@github.com:EuPathDB/install.git
+    url: git@github.com:VEuPathDB/install.git
     branch: master
 
   - src: JBrowse
-    url: git@github.com:EuPathDB/JBrowse.git
+    url: git@github.com:VEuPathDB/JBrowse.git
     branch: master
 
   - src: MicrobiomeDatasets
-    url: git@github.com:EuPathDB/MicrobiomeDatasets.git
+    url: git@github.com:VEuPathDB/MicrobiomeDatasets.git
     branch: master
 
   - src: MicrobiomeModel
-    url: git@github.com:EuPathDB/MicrobiomeModel.git
+    url: git@github.com:VEuPathDB/MicrobiomeModel.git
     branch: master
 
   - src: MicrobiomePresenters
-    url: git@github.com:EuPathDB/MicrobiomePresenters.git
+    url: git@github.com:VEuPathDB/MicrobiomePresenters.git
     branch: master
 
   - src: MicrobiomeWebsite
-    url: git@github.com:EuPathDB/MicrobiomeWebsite.git
+    url: git@github.com:VEuPathDB/MicrobiomeWebsite.git
     branch: master
 
   - src: MicrobiomeWorkflow
-    url: git@github.com:EuPathDB/MicrobiomeWorkflow.git
+    url: git@github.com:VEuPathDB/MicrobiomeWorkflow.git
     branch: master
 
   - src: OAuth2Server
-    url: git@github.com:EuPathDB/OAuth2Server.git
+    url: git@github.com:VEuPathDB/OAuth2Server.git
     branch: master
 
   - src: OrthoMCLData
-    url: git@github.com:EuPathDB/OrthoMCLData.git
+    url: git@github.com:VEuPathDB/OrthoMCLData.git
     branch: master
 
   - src: OrthoMCLDatasets
-    url: git@github.com:EuPathDB/OrthoMCLDatasets.git
+    url: git@github.com:VEuPathDB/OrthoMCLDatasets.git
     branch: master
 
   - src: OrthoMCLEngine
-    url: git@github.com:EuPathDB/OrthoMCLEngine.git
+    url: git@github.com:VEuPathDB/OrthoMCLEngine.git
     branch: master
 
   - src: OrthoMCLModel
-    url: git@github.com:EuPathDB/OrthoMCLModel.git
+    url: git@github.com:VEuPathDB/OrthoMCLModel.git
     branch: master
 
   - src: OrthoMCLPresenters
-    url: git@github.com:EuPathDB/OrthoMCLPresenters.git
+    url: git@github.com:VEuPathDB/OrthoMCLPresenters.git
     branch: master
 
   - src: OrthoMCLShared
-    url: git@github.com:EuPathDB/OrthoMCLShared.git
+    url: git@github.com:VEuPathDB/OrthoMCLShared.git
     branch: master
 
   - src: OrthoMCLWebService
-    url: git@github.com:EuPathDB/OrthoMCLWebService.git
+    url: git@github.com:VEuPathDB/OrthoMCLWebService.git
     branch: master
 
   - src: OrthoMCLWebsite
-    url: git@github.com:EuPathDB/OrthoMCLWebsite.git
+    url: git@github.com:VEuPathDB/OrthoMCLWebsite.git
     branch: master
 
   - src: OrthoMCLWorkflow
-    url: git@github.com:EuPathDB/OrthoMCLWorkflow.git
+    url: git@github.com:VEuPathDB/OrthoMCLWorkflow.git
     branch: master
 
   - src: ReFlow
-    url: git@github.com:EuPathDB/ReFlow.git
+    url: git@github.com:VEuPathDB/ReFlow.git
     branch: master
 
   - src: SchemaBrowser
-    url: git@github.com:EuPathDB/SchemaBrowser.git
+    url: git@github.com:VEuPathDB/SchemaBrowser.git
     branch: master
 
   - src: SiteSearchData
-    url: git@github.com:EuPathDB/SiteSearchData.git
+    url: git@github.com:VEuPathDB/SiteSearchData.git
     branch: master
 
   - src: TuningManager
-    url: git@github.com:EuPathDB/TuningManager.git
+    url: git@github.com:VEuPathDB/TuningManager.git
     branch: master
 
   - src: WDK
-    url: git@github.com:EuPathDB/WDK.git
+    url: git@github.com:VEuPathDB/WDK.git
     branch: master
 
   - src: WDKClient
-    url: git@github.com:EuPathDB/WDKClient.git
+    url: git@github.com:VEuPathDB/WDKClient.git
     branch: master
 
   - src: WDKWebsite
-    url: git@github.com:EuPathDB/WDKWebsite.git
+    url: git@github.com:VEuPathDB/WDKWebsite.git
     branch: master
 
   - src: WSF
-    url: git@github.com:EuPathDB/WSF.git
+    url: git@github.com:VEuPathDB/WSF.git
     branch: master
 
 groups:
