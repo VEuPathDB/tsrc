@@ -366,3 +366,13 @@ groups:
       - ReFlow
     includes: 
       - siteShared
+
+  clinEpiTuningManager:
+    repos:
+      - ClinEpiDatasets
+      - ClinEpiModel
+      - ClinEpiPresenters
+      - GUS
+      - ReFlow
+    includes: 
+      - siteShared
