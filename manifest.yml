@@ -356,3 +356,12 @@ groups:
       - WSF
       - SiteSearchData
       - install
+
+  apiTuningManager:
+    repos:
+      - ApiCommonDatasets
+      - ApiCommonModel
+      - ApiCommonPresenters
+      - GUS
+    includes: 
+      - siteShared
