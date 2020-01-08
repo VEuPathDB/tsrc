@@ -247,11 +247,17 @@ groups:
 
   orthoSite:
     repos:
+      - CBIL
+      - DJob
+      - EbrcWebsiteCommon
+      - EbrcWebSvcCommon
+      - FgpUtil
+      - install
       - OrthoMCLModel
       - OrthoMCLWebService
       - OrthoMCLWebsite
-    includes:
-      - siteShared
+      - WDK
+      - WSF
 
   clinEpiSite:
     repos:
