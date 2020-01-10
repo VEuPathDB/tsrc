@@ -192,6 +192,10 @@ repos:
     url: git@github.com:VEuPathDB/SiteSearchData.git
     branch: master
 
+  - src: SiteSearchService
+    url: git@github.com:VEuPathDB/SiteSearchService.git
+    branch: master
+
   - src: TuningManager
     url: git@github.com:VEuPathDB/TuningManager.git
     branch: master
@@ -362,6 +366,12 @@ groups:
       - WSF
       - SiteSearchData
       - install
+
+  siteSearchService:
+    repos:
+      - install
+      - FgpUtil
+      - SiteSearchService
 
   apiTuningManager:
     repos:
