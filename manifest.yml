@@ -339,6 +339,7 @@ groups:
       - MicrobiomeDatasets
       - MicrobiomeModel
       - MicrobiomeWorkflow
+      - MicrobiomePresenters
     includes:
       - baseLoading
 
