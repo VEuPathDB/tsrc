@@ -36,6 +36,10 @@ repos:
     url: git@github.com:VEuPathDB/CBIL.git
     branch: master
 
+  - src: communitysite
+    url: git@github.com:VEuPathDB/communitysite.git
+    branch: master
+
   - src: ClinEpiData
     url: git@github.com:VEuPathDB/ClinEpiData.git
     branch: master
@@ -296,6 +300,7 @@ groups:
       - EuPathGalaxy
       - EuPathDBIrods
       - OAuth2Server
+      - communitysite
     includes:
       - apiSite
       - orthoSite
