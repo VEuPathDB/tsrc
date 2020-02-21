@@ -410,3 +410,8 @@ groups:
       - ReFlow
     includes: 
       - siteShared
+
+  oauth:
+    repos:
+      - OAuth2Server
+      - FgpUtil
