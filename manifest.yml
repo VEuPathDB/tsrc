@@ -415,3 +415,19 @@ groups:
     repos:
       - OAuth2Server
       - FgpUtil
+
+  irods:
+    repos:
+      - ApiCommonData
+      - ApiCommonModel
+      - DoTS
+      - EbrcModelCommon
+      - EbrcWebsiteCommon
+      - EuPathDBIrods
+      - GUS
+      - GusSchema
+      - ReFlow
+      - WDKClient
+      - WDKWebsite
+    includes:
+      - base
