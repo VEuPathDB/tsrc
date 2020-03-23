@@ -196,10 +196,6 @@ repos:
     url: git@github.com:VEuPathDB/SiteSearchData.git
     branch: master
 
-  - src: SiteSearchModel
-    url: git@github.com:VEuPathDB/SiteSearchModel.git
-    branch: master
-
   - src: SiteSearchService
     url: git@github.com:VEuPathDB/SiteSearchService.git
     branch: master
@@ -376,14 +372,6 @@ groups:
       - WSF
       - SiteSearchData
       - install
-
-  siteSearchModel:
-    repos:
-      - WDK
-      - FgpUtil
-      - WSF
-      - install
-      - SiteSearchModel
 
   siteSearchService:
     repos:
