@@ -212,10 +212,6 @@ repos:
     url: git@github.com:VEuPathDB/WDKClient.git
     branch: master
 
-  - src: WDKWebsite
-    url: git@github.com:VEuPathDB/WDKWebsite.git
-    branch: master
-
   - src: WSF
     url: git@github.com:VEuPathDB/WSF.git
     branch: master
@@ -233,7 +229,6 @@ groups:
   siteShared:
     repos:
       - WDKClient
-      - WDKWebsite
       - EbrcModelCommon
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
@@ -416,6 +411,5 @@ groups:
       - GusSchema
       - ReFlow
       - WDKClient
-      - WDKWebsite
     includes:
       - base
