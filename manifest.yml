@@ -200,10 +200,6 @@ repos:
     url: git@github.com:VEuPathDB/SiteSearchData.git
     branch: master
 
-  - src: SiteSearchModel
-    url: git@github.com:VEuPathDB/SiteSearchModel.git
-    branch: master
-
   - src: SiteSearchService
     url: git@github.com:VEuPathDB/SiteSearchService.git
     branch: master
@@ -218,10 +214,6 @@ repos:
 
   - src: WDKClient
     url: git@github.com:VEuPathDB/WDKClient.git
-    branch: master
-
-  - src: WDKWebsite
-    url: git@github.com:VEuPathDB/WDKWebsite.git
     branch: master
 
   - src: WSF
@@ -241,7 +233,6 @@ groups:
   siteShared:
     repos:
       - WDKClient
-      - WDKWebsite
       - EbrcModelCommon
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
@@ -381,14 +372,6 @@ groups:
       - SiteSearchData
       - install
 
-  siteSearchModel:
-    repos:
-      - WDK
-      - FgpUtil
-      - WSF
-      - install
-      - SiteSearchModel
-
   siteSearchService:
     repos:
       - install
@@ -432,6 +415,5 @@ groups:
       - GusSchema
       - ReFlow
       - WDKClient
-      - WDKWebsite
     includes:
       - base
