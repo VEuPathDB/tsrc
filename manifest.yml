@@ -258,6 +258,7 @@ groups:
       - FgpUtil
       - WSF
       - WDK
+      - WDKClient
       - EbrcModelCommon
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
