@@ -172,12 +172,16 @@ repos:
     url: git@github.com:VEuPathDB/OrthoMCLShared.git
     branch: master
 
-  - src: OrthoMCLWebService
-    url: git@github.com:VEuPathDB/OrthoMCLWebService.git
-    branch: master
-
   - src: OrthoMCLWebsite
     url: git@github.com:VEuPathDB/OrthoMCLWebsite.git
+    branch: master
+
+  - src: OrthoMCLClient
+    url: git@github.com:VEuPathDB/OrthoMCLClient.git
+    branch: master
+
+  - src: OrthoMCLService
+    url: git@github.com:VEuPathDB/OrthoMCLService.git
     branch: master
 
   - src: OrthoMCLWorkflow
@@ -259,17 +263,17 @@ groups:
 
   orthoSite:
     repos:
-      - CBIL
-      - DJob
+      - install
+      - FgpUtil
+      - WSF
+      - WDK
+      - EbrcModelCommon
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
-      - FgpUtil
-      - install
       - OrthoMCLModel
-      - OrthoMCLWebService
+      - OrthoMCLService
+      - OrthoMCLClient
       - OrthoMCLWebsite
-      - WDK
-      - WSF
 
   clinEpiSite:
     repos:
