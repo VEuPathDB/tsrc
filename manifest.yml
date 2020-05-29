@@ -350,6 +350,7 @@ groups:
 
   orthomclLoading:
     repos: 
+      - ApiCommonModel
       - OrthoMCLData
       - OrthoMCLDatasets
       - OrthoMCLEngine
