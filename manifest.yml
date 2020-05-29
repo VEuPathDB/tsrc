@@ -175,6 +175,10 @@ repos:
   - src: OrthoMCLWebsite
     url: git@github.com:VEuPathDB/OrthoMCLWebsite.git
     branch: master
+    
+  - src: OrthoMCLWebService
+    url: git@github.com:VEuPathDB/OrthoMCLWebService.git
+    branch: master
 
   - src: OrthoMCLClient
     url: git@github.com:VEuPathDB/OrthoMCLClient.git
