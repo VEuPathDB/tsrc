@@ -258,13 +258,10 @@ groups:
       - FgpUtil
       - WSF
       - WDK
-      - WDKClient
-      - EbrcModelCommon
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
       - OrthoMCLModel
-      - OrthoMCLService
-      - OrthoMCLClient
+      - OrthoMCLWebService
       - OrthoMCLWebsite
 
   clinEpiSite:
