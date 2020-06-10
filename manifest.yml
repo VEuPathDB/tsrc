@@ -326,6 +326,8 @@ groups:
     repos:
       - ApiCommonDatasets
       - ApiCommonMetadataRepository
+      - ApiCommonModel
+      - ApiCommonPresenters
     includes:
       - baseLoading
 
