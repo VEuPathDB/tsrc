@@ -265,8 +265,9 @@ groups:
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
       - OrthoMCLModel
-      - OrthoMCLWebService
+      - OrthoMCLService
       - OrthoMCLWebsite
+      - OrthoMCLClient
 
   clinEpiSite:
     repos:
