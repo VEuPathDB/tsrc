@@ -262,6 +262,7 @@ groups:
       - FgpUtil
       - WSF
       - WDK
+      - WDKClient
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
       - OrthoMCLModel
