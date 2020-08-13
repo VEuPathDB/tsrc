@@ -379,7 +379,7 @@ groups:
       - SiteSearchData
       - install
 
-siteSearchData-OrthoMCL:
+  siteSearchData-OrthoMCL:
     repos:
       - FgpUtil
       - WDK
