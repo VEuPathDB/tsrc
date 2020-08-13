@@ -379,6 +379,14 @@ groups:
       - SiteSearchData
       - install
 
+siteSearchData-OrthoMCL:
+    repos:
+      - FgpUtil
+      - WDK
+      - WSF
+      - SiteSearchData-OrthoMCL
+      - install
+
   siteSearchService:
     repos:
       - install
