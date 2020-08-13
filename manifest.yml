@@ -204,6 +204,10 @@ repos:
     url: git@github.com:VEuPathDB/SiteSearchData.git
     branch: master
 
+  - src: SiteSearchData-OrthoMCL
+    url: git@github.com:VEuPathDB/SiteSearchData-OrthoMCL.git
+    branch: master
+
   - src: SiteSearchService
     url: git@github.com:VEuPathDB/SiteSearchService.git
     branch: master
