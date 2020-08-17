@@ -274,6 +274,18 @@ groups:
       - OrthoMCLWebsite
       - OrthoMCLClient
 
+  orthoSite_b47_b48:
+    repos:
+      - install
+      - FgpUtil
+      - WSF
+      - WDK
+      - EbrcWebsiteCommon
+      - EbrcWebSvcCommon
+      - OrthoMCLModel
+      - OrthoMCLWebService
+      - OrthoMCLWebsite
+ 
   clinEpiSite:
     repos:
       - ClinEpiPresenters
