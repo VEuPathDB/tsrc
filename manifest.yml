@@ -36,8 +36,8 @@ repos:
     url: git@github.com:VEuPathDB/CBIL.git
     branch: master
 
-  - src: communitysite
-    url: git@github.com:VEuPathDB/communitysite.git
+  - src: StaticContent
+    url: git@github.com:VEuPathDB/StaticContent.git
     branch: master
 
   - src: ClinEpiData
@@ -319,7 +319,7 @@ groups:
       - EuPathGalaxy
       - EuPathDBIrods
       - OAuth2Server
-      - communitysite
+      - StaticContent
     includes:
       - apiSite
       - orthoSite
