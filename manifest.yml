@@ -306,14 +306,6 @@ groups:
     includes:
       - siteShared
 
-  allSites:
-    repos: []
-    includes:
-      - apiSite
-      - orthoSite
-      - clinEpiSite
-      - microbiomeSite
-
   websiteRelease:
     repos:
       - EuPathGalaxy
