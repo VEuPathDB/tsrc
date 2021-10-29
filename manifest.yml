@@ -228,6 +228,11 @@ repos:
     url: git@github.com:VEuPathDB/WSF.git
     branch: master
 
+  - src: WDKTemplateSite
+    url: git@github.com:VEuPathDB/WDKTemplateSite.git
+    branch: master
+
+
 groups:
   base:
     repos: 
@@ -440,3 +445,13 @@ groups:
       - WDKClient
     includes:
       - base
+
+  template:
+    repos:
+      - CBIL
+      - FgpUtil
+      - install
+      - WDK
+      - WSF
+      - WDKTemplateSite
+      - EbrcWebsiteCommon
