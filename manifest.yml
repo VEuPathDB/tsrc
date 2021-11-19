@@ -316,7 +316,6 @@ groups:
       - EuPathGalaxy
       - EuPathDBIrods
       - OAuth2Server
-      - StaticContent
     includes:
       - apiSite
       - orthoSite
