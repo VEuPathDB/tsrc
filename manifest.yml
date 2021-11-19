@@ -314,10 +314,10 @@ groups:
   websiteRelease:
     repos:
       - EuPathGalaxy
-      - EuPathDBIrods
       - OAuth2Server
       - StaticContent
     includes:
+      - irods
       - apiSite
       - orthoSite
       - clinEpiSite
@@ -440,6 +440,7 @@ groups:
       - EbrcWebsiteCommon
       - EuPathDBIrods
       - GUS
+      - GusAppFramework
       - GusSchema
       - ReFlow
       - WDKClient
