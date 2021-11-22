@@ -440,7 +440,6 @@ groups:
       - EbrcWebsiteCommon
       - EuPathDBIrods
       - GUS
-      - GusAppFramework
       - GusSchema
       - ReFlow
       - WDKClient
