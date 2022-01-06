@@ -315,7 +315,6 @@ groups:
     repos:
       - EuPathGalaxy
       - OAuth2Server
-      - StaticContent
     includes:
       - irods
       - apiSite
