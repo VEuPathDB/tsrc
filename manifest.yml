@@ -232,6 +232,69 @@ repos:
     url: git@github.com:VEuPathDB/WDKTemplateSite.git
     branch: master
 
+  - dest: example-jaxrs-container-service
+    url: git@github.com:VEuPathDB/example-jaxrs-container-service.git
+    branch: master
+
+  - dest: lib-jaxrs-container-build-utils
+    url: git@github.com:VEuPathDB/lib-jaxrs-container-build-utils.git
+    branch: master
+
+  - dest: lib-gradle-container-utils
+    url: git@github.com:VEuPathDB/lib-gradle-container-utils.git
+    branch: master
+
+  - dest: lib-jaxrs-container-core
+    url: git@github.com:VEuPathDB/lib-jaxrs-container-core.git
+    branch: master
+
+  - dest: SiteSearchService
+    url: git@github.com:VEuPathDB/SiteSearchService.git
+    branch: master
+
+  - dest: service-multi-blast
+    url: git@github.com:VEuPathDB/service-multi-blast.git
+    branch: master
+
+  - dest: service-osi-generator
+    url: git@github.com:VEuPathDB/service-osi-generator.git
+    branch: master
+
+  - dest: service-user-dataset-import
+    url: git@github.com:VEuPathDB/service-user-dataset-import.git
+    branch: master
+
+  - dest: EdaCommon
+    url: git@github.com:VEuPathDB/EdaCommon.git
+    branch: master
+
+  - dest: EdaSubsettingService
+    url: git@github.com:VEuPathDB/EdaSubsettingService.git
+    branch: master
+
+  - dest: EdaMergingService
+    url: git@github.com:VEuPathDB/EdaMergingService.git
+    branch: master
+
+  - dest: EdaDataService
+    url: git@github.com:VEuPathDB/EdaDataService.git
+    branch: master
+
+  - dest: EdaUserService
+    url: git@github.com:VEuPathDB/EdaUserService.git
+    branch: master
+
+  - dest: service-dataset-access
+    url: git@github.com:VEuPathDB/service-dataset-access.git
+    branch: master
+
+  - dest: service-dataset-download
+    url: git@github.com:VEuPathDB/service-dataset-download.git
+    branch: master
+
+  - dest: service-eda-compute
+    url: git@github.com:VEuPathDB/service-eda-compute.git
+    branch: master
 
 groups:
   base:
@@ -454,3 +517,35 @@ groups:
       - WSF
       - WDKTemplateSite
       - EbrcWebsiteCommon
+
+  servicesInfra:
+    repos:
+      - example-jaxrs-container-service
+      - lib-jaxrs-container-build-utils
+      - lib-gradle-container-utils
+      - lib-jaxrs-container-core
+
+  servicesIndividual:
+    repos:
+      - SiteSearchService
+      - service-multi-blast
+      - service-osi-generator
+      - service-user-dataset-import
+
+  servicesEda:
+    repos:
+      - EdaCommon
+      - EdaSubsettingService
+      - EdaMergingService
+      - EdaDataService
+      - EdaUserService
+      - service-dataset-access
+      - service-dataset-download
+      - service-eda-compute
+
+  servicesAll:
+    includes:
+      - serviceInfra
+      - servicesIndividual
+      - servicesEda
+
