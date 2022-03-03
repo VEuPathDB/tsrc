@@ -236,6 +236,10 @@ repos:
     url: git@github.com:VEuPathDB/web-eda.git
     branch: main
 
+  - dest: coreui
+    url: git@github.com:VEuPathDB/coreui.git
+    branch: main
+
   - dest: web-components
     url: git@github.com:VEuPathDB/web-components.git
     branch: main
@@ -490,14 +494,15 @@ groups:
   # Repos used by web client applications
   web:
     repos:
-      - web-eda
-      - web-components
       - web-dev
+      - coreui
+      - web-components
       - web-http-utils
       - web-study-data-access
       - web-user-datasets
       - web-multi-blast
       - web-app-preferred-organisms
+      - web-eda
       - WDKClient
       - EbrcWebsiteCommon
       - ApiCommonWebsite
