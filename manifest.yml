@@ -32,6 +32,10 @@ repos:
     url: git@github.com:VEuPathDB/ApiCommonWorkflow.git
     branch: master
 
+  - dest: Apollo
+    url: git@github.com:VEuPathDB/Apollo.git
+    branch: master
+
   - dest: CBIL
     url: git@github.com:VEuPathDB/CBIL.git
     branch: master
@@ -68,8 +72,24 @@ repos:
     url: git@github.com:VEuPathDB/DJob.git
     branch: master
 
+  - dest: dnaseqAnalysis
+    url: git@github.com:VEuPathDB/dnaseqAnalysis.git
+    branch: master
+
+  - dest: docker-galaxy-python-tools
+    url: git@github.com:VEuPathDB/docker-galaxy-python-tools.git
+    branch: master
+
+  - dest: docker-tools
+    url: git@github.com:VEuPathDB/docker-tools.git
+    branch: master
+
   - dest: DoTS
     url: git@github.com:VEuPathDB/DoTS.git
+    branch: master
+
+  - dest: ebi2gus
+    url: git@github.com:VEuPathDB/ebi2gus.git
     branch: master
 
   - dest: EbrcModelCommon
@@ -118,6 +138,10 @@ repos:
 
   - dest: install
     url: git@github.com:VEuPathDB/install.git
+    branch: master
+
+  - dest: iterativeWGCNA
+    url: git@github.com:VEuPathDB/iterativeWGCNA.git
     branch: master
 
   - dest: JBrowse
@@ -192,8 +216,20 @@ repos:
     url: git@github.com:VEuPathDB/OrthoMCLWorkflow.git
     branch: master
 
+  - dest: popbio-map
+    url: git@github.com:VEuPathDB/popbio-map.git
+    branch: master
+
+  - dest: popbio-solr-proxy
+    url: git@github.com:VEuPathDB/popbio-solr-proxy.git
+    branch: master
+
   - dest: ReFlow
     url: git@github.com:VEuPathDB/ReFlow.git
+    branch: master
+
+  - dest: Rserve
+    url: git@github.com:VEuPathDB/Rserve.git
     branch: master
 
   - dest: SchemaBrowser
@@ -210,6 +246,10 @@ repos:
 
   - dest: SiteSearchService
     url: git@github.com:VEuPathDB/SiteSearchService.git
+    branch: master
+
+  - dest: SolrDeployment
+    url: git@github.com:VEuPathDB/SolrDeployment.git
     branch: master
 
   - dest: TuningManager
@@ -550,36 +590,55 @@ groups:
       - WDKTemplateSite
       - EbrcWebsiteCommon
 
-  servicesInfra:
+  containerInfra:
     repos:
       - example-jaxrs-container-service
       - lib-jaxrs-container-build-utils
       - lib-gradle-container-utils
       - lib-jaxrs-container-core
 
-  servicesIndividual:
+  containerIndividual:
     repos:
+      - Apollo
+      - popbio-map
+      - popbio-solr-proxy
+      - SolrDeployment
       - SiteSearchService
       - service-multi-blast
       - service-osi-generator
       - service-user-dataset-import
 
-  servicesEda:
+  containerEda:
     repos:
       - EdaCommon
       - EdaSubsettingService
       - EdaMergingService
       - EdaDataService
       - EdaUserService
+      - Rserve
       - service-dataset-access
       - service-dataset-download
       - service-eda-compute
 
-  servicesAll:
+  containerWorkflow:
+    repos:
+      - dnaseqAnalysis
+      - docker-tools
+      - ebi2gus
+      - iterativeWGCNA
+
+  containerMisc:
+    repos:
+      - alpine-dev-base
+      - docker-galaxy-python-tools
+      - SiteSearchData
+
+  containerAll:
     includes:
-      - serviceInfra
-      - servicesIndividual
-      - servicesEda
+      - containerInfra
+      - containerIndividual
+      - containerEda
+      - containerMisc
 
   # Repos used by web client applications
   web:
