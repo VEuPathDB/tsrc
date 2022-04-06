@@ -32,6 +32,10 @@ repos:
     url: git@github.com:VEuPathDB/ApiCommonWorkflow.git
     branch: master
 
+  - dest: Apollo
+    url: git@github.com:VEuPathDB/Apollo.git
+    branch: master
+
   - dest: CBIL
     url: git@github.com:VEuPathDB/CBIL.git
     branch: master
@@ -68,8 +72,28 @@ repos:
     url: git@github.com:VEuPathDB/DJob.git
     branch: master
 
+  - dest: dnaseqAnalysis
+    url: git@github.com:VEuPathDB/dnaseqAnalysis.git
+    branch: master
+
+  - dest: docker-galaxy-python-tools
+    url: git@github.com:VEuPathDB/docker-galaxy-python-tools.git
+    branch: master
+
+  - dest: docker-alpine-dev-base
+    url: git@github.com:VEuPathDB/docker-alpine-dev-base.git
+    branch: master
+
+  - dest: docker-tools
+    url: git@github.com:VEuPathDB/docker-tools.git
+    branch: master
+
   - dest: DoTS
     url: git@github.com:VEuPathDB/DoTS.git
+    branch: master
+
+  - dest: ebi2gus
+    url: git@github.com:VEuPathDB/ebi2gus.git
     branch: master
 
   - dest: EbrcModelCommon
@@ -118,6 +142,10 @@ repos:
 
   - dest: install
     url: git@github.com:VEuPathDB/install.git
+    branch: master
+
+  - dest: iterativeWGCNA
+    url: git@github.com:VEuPathDB/iterativeWGCNA.git
     branch: master
 
   - dest: JBrowse
@@ -192,9 +220,21 @@ repos:
     url: git@github.com:VEuPathDB/OrthoMCLWorkflow.git
     branch: master
 
+  - dest: popbio-map
+    url: git@github.com:VEuPathDB/popbio-map.git
+    branch: master
+
+  - dest: popbio-solr-proxy
+    url: git@github.com:VEuPathDB/popbio-solr-proxy.git
+    branch: master
+
   - dest: ReFlow
     url: git@github.com:VEuPathDB/ReFlow.git
     branch: master
+
+  - dest: Rserve
+    url: git@github.com:VEuPathDB/Rserve.git
+    branch: main
 
   - dest: SchemaBrowser
     url: git@github.com:VEuPathDB/SchemaBrowser.git
@@ -210,6 +250,10 @@ repos:
 
   - dest: SiteSearchService
     url: git@github.com:VEuPathDB/SiteSearchService.git
+    branch: master
+
+  - dest: SolrDeployment
+    url: git@github.com:VEuPathDB/SolrDeployment.git
     branch: master
 
   - dest: TuningManager
@@ -230,6 +274,66 @@ repos:
 
   - dest: WDKTemplateSite
     url: git@github.com:VEuPathDB/WDKTemplateSite.git
+    branch: master
+
+  - dest: example-jaxrs-container-service
+    url: git@github.com:VEuPathDB/example-jaxrs-container-service.git
+    branch: master
+
+  - dest: lib-jaxrs-container-build-utils
+    url: git@github.com:VEuPathDB/lib-jaxrs-container-build-utils.git
+    branch: master
+
+  - dest: lib-gradle-container-utils
+    url: git@github.com:VEuPathDB/lib-gradle-container-utils.git
+    branch: main
+
+  - dest: lib-jaxrs-container-core
+    url: git@github.com:VEuPathDB/lib-jaxrs-container-core.git
+    branch: master
+
+  - dest: service-multi-blast
+    url: git@github.com:VEuPathDB/service-multi-blast.git
+    branch: master
+
+  - dest: service-osi-generator
+    url: git@github.com:VEuPathDB/service-osi-generator.git
+    branch: master
+
+  - dest: service-user-dataset-import
+    url: git@github.com:VEuPathDB/service-user-dataset-import.git
+    branch: master
+
+  - dest: EdaCommon
+    url: git@github.com:VEuPathDB/EdaCommon.git
+    branch: main
+
+  - dest: EdaSubsettingService
+    url: git@github.com:VEuPathDB/EdaSubsettingService.git
+    branch: master
+
+  - dest: EdaMergingService
+    url: git@github.com:VEuPathDB/EdaMergingService.git
+    branch: master
+
+  - dest: EdaDataService
+    url: git@github.com:VEuPathDB/EdaDataService.git
+    branch: master
+
+  - dest: EdaUserService
+    url: git@github.com:VEuPathDB/EdaUserService.git
+    branch: master
+
+  - dest: service-dataset-access
+    url: git@github.com:VEuPathDB/service-dataset-access.git
+    branch: master
+
+  - dest: service-dataset-download
+    url: git@github.com:VEuPathDB/service-dataset-download.git
+    branch: main
+
+  - dest: service-eda-compute
+    url: git@github.com:VEuPathDB/service-eda-compute.git
     branch: master
 
   - dest: web-eda
@@ -267,7 +371,6 @@ repos:
   - dest: web-app-preferred-organisms
     url: git@github.com:VEuPathDB/web-app-preferred-organisms.git
     branch: main
-
 
 groups:
   base:
@@ -490,6 +593,53 @@ groups:
       - WSF
       - WDKTemplateSite
       - EbrcWebsiteCommon
+
+  containerInfra:
+    repos:
+      - example-jaxrs-container-service
+      - lib-jaxrs-container-build-utils
+      - lib-gradle-container-utils
+      - lib-jaxrs-container-core
+
+  containerIndividual:
+    repos:
+      - Apollo
+      - popbio-map
+      - popbio-solr-proxy
+      - SolrDeployment
+      - SiteSearchService
+      - service-multi-blast
+      - service-osi-generator
+      - service-user-dataset-import
+
+  containerEda:
+    repos:
+      - EdaCommon
+      - EdaSubsettingService
+      - EdaMergingService
+      - EdaDataService
+      - EdaUserService
+      - Rserve
+      - service-dataset-access
+      - service-dataset-download
+      - service-eda-compute
+
+  containerWorkflow:
+    repos:
+      - dnaseqAnalysis
+      - docker-tools
+      - ebi2gus
+      - iterativeWGCNA
+
+  containerAll:
+    repos:
+      - docker-alpine-dev-base
+      - docker-galaxy-python-tools
+      - SiteSearchData
+    includes:
+      - containerInfra
+      - containerIndividual
+      - containerEda
 
   # Repos used by web client applications
   web:
