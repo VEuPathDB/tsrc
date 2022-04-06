@@ -234,7 +234,7 @@ repos:
 
   - dest: Rserve
     url: git@github.com:VEuPathDB/Rserve.git
-    branch: master
+    branch: main
 
   - dest: SchemaBrowser
     url: git@github.com:VEuPathDB/SchemaBrowser.git
@@ -286,7 +286,7 @@ repos:
 
   - dest: lib-gradle-container-utils
     url: git@github.com:VEuPathDB/lib-gradle-container-utils.git
-    branch: master
+    branch: main
 
   - dest: lib-jaxrs-container-core
     url: git@github.com:VEuPathDB/lib-jaxrs-container-core.git
@@ -306,7 +306,7 @@ repos:
 
   - dest: EdaCommon
     url: git@github.com:VEuPathDB/EdaCommon.git
-    branch: master
+    branch: main
 
   - dest: EdaSubsettingService
     url: git@github.com:VEuPathDB/EdaSubsettingService.git
@@ -330,7 +330,7 @@ repos:
 
   - dest: service-dataset-download
     url: git@github.com:VEuPathDB/service-dataset-download.git
-    branch: master
+    branch: main
 
   - dest: service-eda-compute
     url: git@github.com:VEuPathDB/service-eda-compute.git
