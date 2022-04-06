@@ -248,10 +248,6 @@ repos:
     url: git@github.com:VEuPathDB/lib-jaxrs-container-core.git
     branch: master
 
-  - dest: SiteSearchService
-    url: git@github.com:VEuPathDB/SiteSearchService.git
-    branch: master
-
   - dest: service-multi-blast
     url: git@github.com:VEuPathDB/service-multi-blast.git
     branch: master
