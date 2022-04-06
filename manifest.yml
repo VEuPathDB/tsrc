@@ -627,13 +627,11 @@ groups:
       - ebi2gus
       - iterativeWGCNA
 
-  containerMisc:
+  containerAll:
     repos:
       - alpine-dev-base
       - docker-galaxy-python-tools
       - SiteSearchData
-
-  containerAll:
     includes:
       - containerInfra
       - containerIndividual
