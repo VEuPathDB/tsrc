@@ -640,7 +640,6 @@ groups:
       - containerInfra
       - containerIndividual
       - containerEda
-      - containerMisc
 
   # Repos used by web client applications
   web:
