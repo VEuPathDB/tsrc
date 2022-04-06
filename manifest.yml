@@ -80,6 +80,10 @@ repos:
     url: git@github.com:VEuPathDB/docker-galaxy-python-tools.git
     branch: master
 
+  - dest: docker-alpine-dev-base
+    url: git@github.com:VEuPathDB/docker-alpine-dev-base.git
+    branch: master
+
   - dest: docker-tools
     url: git@github.com:VEuPathDB/docker-tools.git
     branch: master
@@ -629,7 +633,7 @@ groups:
 
   containerAll:
     repos:
-      - alpine-dev-base
+      - docker-alpine-dev-base
       - docker-galaxy-python-tools
       - SiteSearchData
     includes:
