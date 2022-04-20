@@ -212,6 +212,10 @@ repos:
     url: git@github.com:VEuPathDB/SiteSearchService.git
     branch: master
 
+  - dest: tagger
+    url: git@github.com:VEuPathDB/tagger.git
+    branch: qa
+
   - dest: TuningManager
     url: git@github.com:VEuPathDB/TuningManager.git
     branch: master
@@ -351,6 +355,7 @@ groups:
     repos:
       - EuPathGalaxy
       - OAuth2Server
+      - tagger
     includes:
       - irods
       - apiSite
