@@ -120,6 +120,10 @@ repos:
     url: git@github.com:VEuPathDB/install.git
     branch: master
 
+  - dest: conifer
+    url: git@github.com:VEuPathDB/conifer.git
+    branch: master
+
   - dest: JBrowse
     url: git@github.com:VEuPathDB/JBrowse.git
     branch: master
@@ -275,10 +279,11 @@ repos:
 
 groups:
   base:
-    repos: 
+    repos:
+      - install
+      - conifer
       - CBIL
       - FgpUtil
-      - install
       - WDK
       - WSF
 
