@@ -281,7 +281,6 @@ groups:
   base:
     repos:
       - install
-      - conifer
       - CBIL
       - FgpUtil
       - WDK
