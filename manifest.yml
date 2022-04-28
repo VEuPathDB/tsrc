@@ -100,10 +100,6 @@ repos:
     url: git@github.com:VEuPathDB/FgpUtil.git
     branch: master
 
-  - dest: GBrowse
-    url: git@github.com:VEuPathDB/GBrowse.git
-    branch: master
-
   - dest: GGTools
     url: git@github.com:VEuPathDB/GGTools.git
     branch: master
@@ -303,7 +299,6 @@ groups:
       - ApiCommonPresenters
       - ApiCommonWebService
       - ApiCommonWebsite
-      - GBrowse
       - JBrowse
       - ReFlow
     includes: 
@@ -312,6 +307,7 @@ groups:
   orthoSite:
     repos:
       - install
+      - conifer
       - FgpUtil
       - WSF
       - WDK
@@ -322,18 +318,6 @@ groups:
       - OrthoMCLService
       - OrthoMCLWebsite
       - OrthoMCLClient
-
-  orthoSite_b47_b48:
-    repos:
-      - install
-      - FgpUtil
-      - WSF
-      - WDK
-      - EbrcWebsiteCommon
-      - EbrcWebSvcCommon
-      - OrthoMCLModel
-      - OrthoMCLWebService
-      - OrthoMCLWebsite
  
   clinEpiSite:
     repos:
