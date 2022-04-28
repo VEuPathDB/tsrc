@@ -122,7 +122,7 @@ repos:
 
   - dest: conifer
     url: git@github.com:VEuPathDB/conifer.git
-    branch: main
+    branch: master
 
   - dest: JBrowse
     url: git@github.com:VEuPathDB/JBrowse.git
