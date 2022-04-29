@@ -409,6 +409,7 @@ groups:
 
   allLoading:
     repos:
+      - install
     includes:
       - apiLoading
       - orthomclLoading
