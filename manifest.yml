@@ -407,6 +407,13 @@ groups:
     includes:
       - baseLoading
 
+  allLoading:
+    includes:
+      - apiLoading
+      - orthomclLoading
+      - clinEpiLoading
+      - microbiomeLoading
+
   cluster:
     repos:
       - DJob
