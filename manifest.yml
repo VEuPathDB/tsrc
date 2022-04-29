@@ -408,6 +408,7 @@ groups:
       - baseLoading
 
   allLoading:
+    repos:
     includes:
       - apiLoading
       - orthomclLoading
