@@ -404,6 +404,8 @@ groups:
       - OrthoMCLModel
       - OrthoMCLShared
       - OrthoMCLWorkflow
+      - EbrcWebsiteCommon
+      - EbrcWebSvcCommon
     includes:
       - baseLoading
 
