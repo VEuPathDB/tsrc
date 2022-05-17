@@ -514,3 +514,14 @@ groups:
       - ClinEpiWebsite
       - MicrobiomeWebsite
       - OrthoMCLClient
+
+  nonLoadingNonWebsiteGusProjects:
+    repos:
+      - EuPathDBIrods
+      - EuPathMetadataRepository
+      - ExampleDatasets
+      - ExamplePresenters
+      - SchemaBrowser
+      - SiteSearchData
+      - SiteSearchData-OrthoMCL
+      - WDKTemplateSite
