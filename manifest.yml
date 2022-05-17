@@ -92,20 +92,8 @@ repos:
     url: git@github.com:VEuPathDB/EuPathGalaxy.git
     branch: master
 
-  - dest: EuPathMetadataRepository
-    url: git@github.com:VEuPathDB/EuPathMetadataRepository.git
-    branch: master
-
   - dest: EuPathTemplateSite
     url: git@github.com:VEuPathDB/EuPathTemplateSite.git
-    branch: master
-
-  - dest: ExampleDatasets
-    url: git@github.com:VEuPathDB/ExampleDatasets.git
-    branch: master
-
-  - dest: ExamplePresenters
-    url: git@github.com:VEuPathDB/ExamplePresenters.git
     branch: master
 
   - dest: FgpUtil
@@ -530,9 +518,6 @@ groups:
   nonLoadingNonWebsiteGusProjects:
     repos:
       - EuPathDBIrods
-      - EuPathMetadataRepository
-      - ExampleDatasets
-      - ExamplePresenters
       - SchemaBrowser
       - SiteSearchData
       - SiteSearchData-OrthoMCL
