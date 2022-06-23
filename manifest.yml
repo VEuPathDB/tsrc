@@ -482,6 +482,7 @@ groups:
       - GUS
       - GusSchema
       - ReFlow
+      - TuningManager
       - WDKClient
     includes:
       - base
