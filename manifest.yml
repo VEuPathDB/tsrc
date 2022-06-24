@@ -272,6 +272,9 @@ repos:
     url: git@github.com:VEuPathDB/web-app-preferred-organisms.git
     branch: main
 
+  - dest: web-blast-summary-view
+    url: git@github.com:VEuPathDB/web-blast-summary-view.git
+    branch: main
 
 groups:
   base:
@@ -509,6 +512,7 @@ groups:
       - web-multi-blast
       - web-app-preferred-organisms
       - web-eda
+      - web-blast-summary-view
       - WDKClient
       - EbrcWebsiteCommon
       - ApiCommonWebsite
