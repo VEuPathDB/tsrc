@@ -224,10 +224,6 @@ repos:
     url: git@github.com:VEuPathDB/WDK.git
     branch: master
 
-  - dest: WDKClient
-    url: git@github.com:VEuPathDB/WDKClient.git
-    branch: master
-
   - dest: WSF
     url: git@github.com:VEuPathDB/WSF.git
     branch: master
@@ -236,44 +232,8 @@ repos:
     url: git@github.com:VEuPathDB/WDKTemplateSite.git
     branch: master
 
-  - dest: web-eda
-    url: git@github.com:VEuPathDB/web-eda.git
-    branch: main
-
-  - dest: coreui
-    url: git@github.com:VEuPathDB/coreui.git
-    branch: main
-
-  - dest: web-components
-    url: git@github.com:VEuPathDB/web-components.git
-    branch: main
-
-  - dest: web-dev
-    url: git@github.com:VEuPathDB/web-dev.git
-    branch: main
-
-  - dest: web-http-utils
-    url: git@github.com:VEuPathDB/web-http-utils.git
-    branch: main
-
-  - dest: web-study-data-access
-    url: git@github.com:VEuPathDB/web-study-data-access.git
-    branch: main
-
-  - dest: web-user-datasets
-    url: git@github.com:VEuPathDB/web-user-datasets.git
-    branch: main
-
-  - dest: web-multi-blast
-    url: git@github.com:VEuPathDB/web-multi-blast.git
-    branch: main
-
-  - dest: web-app-preferred-organisms
-    url: git@github.com:VEuPathDB/web-app-preferred-organisms.git
-    branch: main
-
-  - dest: web-blast-summary-view
-    url: git@github.com:VEuPathDB/web-blast-summary-view.git
+  - dest: web-monorepo
+    url: git@github.com:VEuPathDB/web-monorepo.git
     branch: main
 
 groups:
@@ -288,7 +248,6 @@ groups:
 
   siteShared:
     repos:
-      - WDKClient
       - EbrcModelCommon
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
@@ -314,7 +273,6 @@ groups:
       - FgpUtil
       - WSF
       - WDK
-      - WDKClient
       - EbrcWebsiteCommon
       - EbrcWebSvcCommon
       - OrthoMCLModel
@@ -486,7 +444,6 @@ groups:
       - GusSchema
       - ReFlow
       - TuningManager
-      - WDKClient
     includes:
       - base
 
@@ -503,22 +460,7 @@ groups:
   # Repos used by web client applications
   web:
     repos:
-      - web-dev
-      - coreui
-      - web-components
-      - web-http-utils
-      - web-study-data-access
-      - web-user-datasets
-      - web-multi-blast
-      - web-app-preferred-organisms
-      - web-eda
-      - web-blast-summary-view
-      - WDKClient
-      - EbrcWebsiteCommon
-      - ApiCommonWebsite
-      - ClinEpiWebsite
-      - MicrobiomeWebsite
-      - OrthoMCLClient
+      - web-monorepo
 
   nonLoadingNonWebsiteGusProjects:
     repos:
