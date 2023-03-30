@@ -8,6 +8,10 @@ repos:
     url: git@github.com:VEuPathDB/ApiCommonDatasets.git
     branch: master
 
+  - dest: EdaDatasets
+    url: git@github.com:VEuPathDB/EdaDatasets.git
+    branch: master
+
   - dest: ApiCommonMetadataRepository
     url: git@github.com:VEuPathDB/ApiCommonMetadataRepository.git
     branch: master
