@@ -336,6 +336,14 @@ groups:
     includes:
       - baseLoading
 
+  edaLoading:
+    repos:
+      - EdaDatasets
+      - ApiCommonModel
+      - ApiCommonPresenters
+    includes:
+      - baseLoading
+
   clinEpiLoading:
     repos: 
       - ClinEpiData
