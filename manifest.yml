@@ -184,10 +184,6 @@ repos:
     url: git@github.com:VEuPathDB/OrthoMCLWebService.git
     branch: master
 
-  - dest: OrthoMCLClient
-    url: git@github.com:VEuPathDB/OrthoMCLClient.git
-    branch: master
-
   - dest: OrthoMCLService
     url: git@github.com:VEuPathDB/OrthoMCLService.git
     branch: master
@@ -282,7 +278,6 @@ groups:
       - OrthoMCLModel
       - OrthoMCLService
       - OrthoMCLWebsite
-      - OrthoMCLClient
  
   clinEpiSite:
     repos:
