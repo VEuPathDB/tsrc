@@ -224,6 +224,10 @@ repos:
     url: git@github.com:VEuPathDB/WDK.git
     branch: master
 
+  - dest: WDKClient
+    url: git@github.com:VEuPathDB/WDKClient.git
+    branch: master
+
   - dest: WSF
     url: git@github.com:VEuPathDB/WSF.git
     branch: master
@@ -453,6 +457,16 @@ groups:
       - TuningManager
     includes:
       - base
+
+  irods-builder:
+    repos:
+      - ApiCommonWebService
+      - ApiCommonWebsite
+      - WDKClient
+      - EbrcWebSvcCommon
+    includes:
+      - base
+      - irods
 
   template:
     repos:
