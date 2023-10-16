@@ -240,6 +240,14 @@ repos:
     url: git@github.com:VEuPathDB/web-monorepo.git
     branch: main
 
+  - dest: ApidbSchema
+    url: git@github.com:VEuPathDB/ApidbSchema.git
+    branch: main
+
+  - dest: SchemaInstallUtils
+    url: git@github.com:VEuPathDB/SchemaInstallUtils.git
+    branch: main
+
 groups:
   base:
     repos:
@@ -389,6 +397,14 @@ groups:
       - orthomclLoading
       - clinEpiLoading
       - microbiomeLoading
+
+  gusApidbSchemaInstall:
+    repos:
+      - install
+      - GUS
+      - GusSchema
+      - SchemaInstallUtils
+      - ApidbSchema
 
   cluster:
     repos:
