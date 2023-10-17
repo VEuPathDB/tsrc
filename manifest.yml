@@ -401,6 +401,7 @@ groups:
   gusApidbSchemaInstall:
     repos:
       - install
+      - CBIL
       - GUS
       - GusSchema
       - SchemaInstallUtils
