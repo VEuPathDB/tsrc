@@ -452,8 +452,19 @@ groups:
       - ClinEpiPresenters
       - GUS
       - ReFlow
-    includes: 
+    includes:
       - siteShared
+
+
+  edaTuningManager:
+    repos:
+      - MicrobiomeDatasets
+      - MicrobiomeModel
+      - MicrobiomePresenters
+    includes:
+      - apiTuningManager
+      - clinEpiTuningManager
+
 
   oauth:
     repos:
