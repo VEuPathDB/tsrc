@@ -248,6 +248,10 @@ repos:
     url: git@github.com:VEuPathDB/SchemaInstallUtils.git
     branch: main
 
+  - dest: VdiSchema
+    url: git@github.com:VEuPathDB/VdiSchema.git
+    branch: main
+
 groups:
   base:
     repos:
@@ -406,6 +410,7 @@ groups:
       - GusSchema
       - SchemaInstallUtils
       - ApidbSchema
+      - VdiSchema
 
   cluster:
     repos:
