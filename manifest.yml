@@ -88,10 +88,6 @@ repos:
     url: git@github.com:VEuPathDB/EbrcWebSvcCommon.git
     branch: master
 
-  - dest: EuPathDBIrods
-    url: git@github.com:VEuPathDB/EuPathDBIrods.git
-    branch: master
-
   - dest: EuPathGalaxy
     url: git@github.com:VEuPathDB/EuPathGalaxy.git
     branch: master
@@ -321,7 +317,6 @@ groups:
       - OAuth2Server
       - tagger
     includes:
-      - irods
       - apiSite
       - orthoSite
       - clinEpiSite
@@ -476,30 +471,6 @@ groups:
       - OAuth2Server
       - FgpUtil
 
-  irods:
-    repos:
-      - ApiCommonData
-      - ApiCommonModel
-      - DoTS
-      - EbrcModelCommon
-      - EbrcWebsiteCommon
-      - EuPathDBIrods
-      - GUS
-      - GusSchema
-      - ReFlow
-      - TuningManager
-    includes:
-      - base
-
-  irods-builder:
-    repos:
-      - ApiCommonWebService
-      - ApiCommonWebsite
-      - EbrcWebSvcCommon
-    includes:
-      - base
-      - irods
-
   template:
     repos:
       - CBIL
@@ -517,7 +488,6 @@ groups:
 
   nonLoadingNonWebsiteGusProjects:
     repos:
-      - EuPathDBIrods
       - SchemaBrowser
       - SiteSearchData
       - SiteSearchData-OrthoMCL
