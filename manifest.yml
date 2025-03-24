@@ -492,3 +492,15 @@ groups:
       - SiteSearchData
       - SiteSearchData-OrthoMCL
       - WDKTemplateSite
+
+  theKitNCaboodle:
+    includes:
+      - websiteRelease
+      - allLoading
+      - gusApidbSchemaInstall
+      - siteSearchService
+      - clinEpiTuningManager
+      - apiTuningManager
+      - edaTuningManager
+      - web
+      - nonLoadingNonWebsiteGusProjects
