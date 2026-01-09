@@ -425,6 +425,7 @@ groups:
       - FgpUtil
       - WDK
       - WSF
+      - EbrcWebsiteCommon
       - SiteSearchData
       - install
 
@@ -433,6 +434,7 @@ groups:
       - FgpUtil
       - WDK
       - WSF
+      - EbrcWebsiteCommon
       - SiteSearchData-OrthoMCL
       - install
 
