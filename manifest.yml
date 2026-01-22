@@ -12,10 +12,6 @@ repos:
     url: git@github.com:VEuPathDB/EdaDatasets.git
     branch: master
 
-  - dest: ApiCommonMetadataRepository
-    url: git@github.com:VEuPathDB/ApiCommonMetadataRepository.git
-    branch: master
-
   - dest: ApiCommonModel
     url: git@github.com:VEuPathDB/ApiCommonModel.git
     branch: master
@@ -66,10 +62,6 @@ repos:
 
   - dest: ClinEpiWorkflow
     url: git@github.com:VEuPathDB/ClinEpiWorkflow.git
-    branch: master
-
-  - dest: DJob
-    url: git@github.com:VEuPathDB/DJob.git
     branch: master
 
   - dest: DoTS
@@ -332,7 +324,6 @@ groups:
       - GUS
       - GusSchema
       - ReFlow
-      - DJob
       - TuningManager
     includes:
       - base
@@ -340,7 +331,6 @@ groups:
   apiLoading:
     repos:
       - ApiCommonDatasets
-      - ApiCommonMetadataRepository
       - ApiCommonModel
       - ApiCommonPresenters
     includes:
@@ -366,7 +356,6 @@ groups:
 
   microbiomeLoading:
     repos: 
-      - ApiCommonMetadataRepository
       - MicrobiomeDatasets
       - MicrobiomeModel
       - MicrobiomeWorkflow
@@ -416,7 +405,6 @@ groups:
 
   cluster:
     repos:
-      - DJob
       - CBIL
       - install
       
