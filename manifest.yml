@@ -240,6 +240,10 @@ repos:
     url: git@github.com:VEuPathDB/VdiSchema.git
     branch: main
 
+  - dest: VEuPathDatasets
+    url: git@github.com:VEuPathDB/VEuPathDatasets.git
+    branch: main
+
 groups:
   base:
     repos:
@@ -267,7 +271,19 @@ groups:
       - ApiCommonWebsite
       - JBrowse
       - ReFlow
-    includes: 
+    includes:
+      - siteShared
+
+  # Replaces apiSite - ApiCommonDatasets + ApiCommonPresenters consolidated into VEuPathDatasets
+  veupathSite:
+    repos:
+      - VEuPathDatasets
+      - ApiCommonModel
+      - ApiCommonWebService
+      - ApiCommonWebsite
+      - JBrowse
+      - ReFlow
+    includes:
       - siteShared
 
   orthoSite:
@@ -333,6 +349,14 @@ groups:
       - ApiCommonDatasets
       - ApiCommonModel
       - ApiCommonPresenters
+    includes:
+      - baseLoading
+
+  # Replaces apiLoading - ApiCommonDatasets + ApiCommonPresenters consolidated into VEuPathDatasets
+  veupathLoading:
+    repos:
+      - VEuPathDatasets
+      - ApiCommonModel
     includes:
       - baseLoading
 
@@ -437,6 +461,17 @@ groups:
       - ApiCommonDatasets
       - ApiCommonModel
       - ApiCommonPresenters
+      - GUS
+      - ReFlow
+      - TuningManager
+    includes:
+      - siteShared
+
+  # Replaces apiTuningManager - ApiCommonDatasets + ApiCommonPresenters consolidated into VEuPathDatasets
+  veupathTuningManager:
+    repos:
+      - VEuPathDatasets
+      - ApiCommonModel
       - GUS
       - ReFlow
       - TuningManager
