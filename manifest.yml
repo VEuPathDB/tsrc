@@ -439,7 +439,8 @@ groups:
       - ApiCommonPresenters
       - GUS
       - ReFlow
-    includes: 
+      - TuningManager
+    includes:
       - siteShared
 
   clinEpiTuningManager:
