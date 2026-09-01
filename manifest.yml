@@ -240,6 +240,10 @@ repos:
     url: git@github.com:VEuPathDB/VdiSchema.git
     branch: main
 
+  - dest: VEuPathDatasets
+    url: git@github.com:VEuPathDB/VEuPathDatasets.git
+    branch: main
+
 groups:
   base:
     repos:
@@ -267,7 +271,19 @@ groups:
       - ApiCommonWebsite
       - JBrowse
       - ReFlow
-    includes: 
+    includes:
+      - siteShared
+
+  # Replaces apiSite - ApiCommonDatasets + ApiCommonPresenters consolidated into VEuPathDatasets
+  veupathSite:
+    repos:
+      - VEuPathDatasets
+      - ApiCommonModel
+      - ApiCommonWebService
+      - ApiCommonWebsite
+      - JBrowse
+      - ReFlow
+    includes:
       - siteShared
 
   orthoSite:
@@ -309,7 +325,7 @@ groups:
       - OAuth2Server
       - tagger
     includes:
-      - apiSite
+      - veupathSite
       - orthoSite
       - clinEpiSite
       - microbiomeSite
@@ -333,6 +349,14 @@ groups:
       - ApiCommonDatasets
       - ApiCommonModel
       - ApiCommonPresenters
+    includes:
+      - baseLoading
+
+  # Replaces apiLoading - ApiCommonDatasets + ApiCommonPresenters consolidated into VEuPathDatasets
+  veupathLoading:
+    repos:
+      - VEuPathDatasets
+      - ApiCommonModel
     includes:
       - baseLoading
 
@@ -381,7 +405,7 @@ groups:
     repos:
       - install
     includes:
-      - apiLoading
+      - veupathLoading
       - orthomclLoading
       - clinEpiLoading
       - microbiomeLoading
@@ -390,8 +414,8 @@ groups:
     repos:
       - install
     includes:
-      - apiLoading
-      - apiSite
+      - veupathLoading
+      - veupathSite
       
   gusApidbSchemaInstall:
     repos:
@@ -439,7 +463,19 @@ groups:
       - ApiCommonPresenters
       - GUS
       - ReFlow
-    includes: 
+      - TuningManager
+    includes:
+      - siteShared
+
+  # Replaces apiTuningManager - ApiCommonDatasets + ApiCommonPresenters consolidated into VEuPathDatasets
+  veupathTuningManager:
+    repos:
+      - VEuPathDatasets
+      - ApiCommonModel
+      - GUS
+      - ReFlow
+      - TuningManager
+    includes:
       - siteShared
 
   clinEpiTuningManager:
@@ -459,7 +495,7 @@ groups:
       - MicrobiomeModel
       - MicrobiomePresenters
     includes:
-      - apiTuningManager
+      - veupathTuningManager
       - clinEpiTuningManager
 
 
@@ -499,6 +535,6 @@ groups:
       - gusApidbSchemaInstall
       - siteSearchService
       - clinEpiTuningManager
-      - apiTuningManager
+      - veupathTuningManager
       - edaTuningManager
       - nonLoadingNonWebsiteGusProjects
