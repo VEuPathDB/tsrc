@@ -325,7 +325,7 @@ groups:
       - OAuth2Server
       - tagger
     includes:
-      - apiSite
+      - veupathSite
       - orthoSite
       - clinEpiSite
       - microbiomeSite
@@ -405,7 +405,7 @@ groups:
     repos:
       - install
     includes:
-      - apiLoading
+      - veupathLoading
       - orthomclLoading
       - clinEpiLoading
       - microbiomeLoading
@@ -414,8 +414,8 @@ groups:
     repos:
       - install
     includes:
-      - apiLoading
-      - apiSite
+      - veupathLoading
+      - veupathSite
       
   gusApidbSchemaInstall:
     repos:
@@ -495,7 +495,7 @@ groups:
       - MicrobiomeModel
       - MicrobiomePresenters
     includes:
-      - apiTuningManager
+      - veupathTuningManager
       - clinEpiTuningManager
 
 
@@ -535,6 +535,6 @@ groups:
       - gusApidbSchemaInstall
       - siteSearchService
       - clinEpiTuningManager
-      - apiTuningManager
+      - veupathTuningManager
       - edaTuningManager
       - nonLoadingNonWebsiteGusProjects
