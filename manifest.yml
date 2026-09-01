@@ -242,7 +242,7 @@ repos:
 
   - dest: VEuPathDatasets
     url: git@github.com:VEuPathDB/VEuPathDatasets.git
-    branch: main
+    branch: master
 
 groups:
   base:
