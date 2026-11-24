@@ -472,11 +472,14 @@ groups:
     repos:
       - VEuPathDatasets
       - ApiCommonModel
-      - GUS
+      - EbrcModelCommon
       - ReFlow
       - TuningManager
-    includes:
-      - siteShared
+      - install
+      - CBIL
+      - FgpUtil
+      - WDK
+      - WSF
 
   clinEpiTuningManager:
     repos:
